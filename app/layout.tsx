@@ -4,6 +4,7 @@ import { WishlistProvider } from "@/context/WishlistContext";
 import { ThemeProvider } from "@/context/ThemeContext";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import ClientCursor from "@/components/ui/ClientCursor";
 import { Outfit } from "next/font/google";
 
 const outfit = Outfit({
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${outfit.variable} font-sans antialiased min-h-screen flex flex-col tracking-wide`}>
         <ThemeProvider>
           <WishlistProvider>
+            <ClientCursor />
             <Navbar />
             <main className="grow">
               {children}

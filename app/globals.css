@@ -17,15 +17,16 @@
 }
 
 .dark {
-  --background: #0f0f12;
+  --background: #090610;
   --foreground: #f8f9fa;
   
-  --card: #1a1a1f;
+  --card: #120a1f;
   --card-foreground: #f8f9fa;
   
-  --border: #2d2d35;
-  --input: #2d2d35;
-  --ring: #805fe3;
+  --border: #241642;
+  --input: #241642;
+  --ring: #9d50f5;
+  --primary: #805fe3;
 }
 
 @theme inline {
@@ -52,21 +53,64 @@
   * {
     border-color: var(--border);
   }
+  
+  html, body {
+    cursor: none;
+  }
+
+  /* Specific clickable elements need to have cursor: none to avoid showing the system pointer */
+  a, button, [role="button"], input, select, label {
+    cursor: none;
+  }
+
+  /* Ensure Next.js error overlays and debug tools keep their native cursor */
+  #nextjs-portal *,
+  [data-nextjs-dialog-overlay] *,
+  [data-nextjs-toast] * {
+    cursor: auto !important;
+  }
+  
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #805fe3; /* primary-light */
+    border-radius: 10px;
+    border: 2px solid var(--background);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6d51c2; /* primary */
+  }
+
   body {
     background-color: var(--background);
     color: var(--foreground);
     font-family: "Creato Display", var(--font-outfit), sans-serif !important;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
+
+  /* Hide number input spin buttons */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
 }
 
 @layer utilities {
   .bg-purple-gradient {
-    background: linear-gradient(135deg, #6d51c2 0%, #805fe3 100%);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
   }
   
   .text-gradient {
-    background: linear-gradient(135deg, #6d51c2 0%, #805fe3 100%);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -89,5 +133,14 @@
     0% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0px); }
+  }
+
+  .custom-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    display: none;
   }
 }

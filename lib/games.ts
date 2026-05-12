@@ -27,29 +27,52 @@ export const getGamesByIds = (ids: string[]): Game[] => {
 /**
  * Returns games based on search query and filters.
  */
-export const searchGames = (query?: string, genre?: string, platform?: string): Game[] => {
-  const filtered = [...games];
+export const searchGames = (
+  query?: string, 
+  genre?: string, 
+  platform?: string,
+  minPrice?: number,
+  maxPrice?: number,
+  minRating?: number
+): Game[] => {
+  let filtered = [...games];
 
-  const matched = query
-    ? filtered.filter(game => {
-        const q = query.toLowerCase();
-        return (
-          game.title.toLowerCase().includes(q) ||
-          game.description.toLowerCase().includes(q) ||
-          game.tags.some(t => t.toLowerCase().includes(q))
-        );
-      })
-    : filtered;
+  if (query) {
+    const q = query.toLowerCase();
+    filtered = filtered.filter(game => 
+      game.title.toLowerCase().includes(q) ||
+      game.description.toLowerCase().includes(q) ||
+      game.tags.some(t => t.toLowerCase().includes(q))
+    );
+  }
 
-  const byGenre = genre && genre !== 'All'
-    ? matched.filter(game => game.genres.includes(genre))
-    : matched;
+  if (genre && genre !== 'All') {
+    const selectedGenres = genre.split(',');
+    filtered = filtered.filter(game => 
+      selectedGenres.some(g => game.genres.includes(g))
+    );
+  }
 
-  const result = platform && platform !== 'All'
-    ? byGenre.filter(game => game.platforms.includes(platform))
-    : byGenre;
+  if (platform && platform !== 'All') {
+    const selectedPlatforms = platform.split(',');
+    filtered = filtered.filter(game => 
+      selectedPlatforms.some(p => game.platforms.includes(p))
+    );
+  }
 
-  return result;
+  if (minPrice !== undefined) {
+    filtered = filtered.filter(game => game.price >= minPrice);
+  }
+
+  if (maxPrice !== undefined) {
+    filtered = filtered.filter(game => game.price <= maxPrice);
+  }
+
+  if (minRating !== undefined) {
+    filtered = filtered.filter(game => game.rating >= minRating);
+  }
+
+  return filtered;
 };
 
 /**
@@ -63,16 +86,20 @@ export const getFeaturedGames = (): Game[] => {
  * Returns a list of all unique genres.
  */
 export const getAllGenres = (): string[] => {
-  const genresSet = new Set<string>();
-  games.forEach(game => game.genres.forEach(g => genresSet.add(g)));
-  return Array.from(genresSet).sort();
+  const commonGenres = [
+    'Action', 'Adventure', 'RPG', 'Strategy', 'Puzzle', 
+    'Simulation', 'Horror', 'Indie', 'Platformer', 'Racing', 
+    'Sports', 'Casual', 'Fighting', 'Stealth'
+  ];
+  return commonGenres.sort();
 };
 
 /**
  * Returns a list of all unique platforms.
  */
 export const getAllPlatforms = (): string[] => {
-  const platformsSet = new Set<string>();
-  games.forEach(game => game.platforms.forEach(p => platformsSet.add(p)));
-  return Array.from(platformsSet).sort();
+  const commonPlatforms = [
+    'PC', 'PS5', 'Xbox Series X', 'Xbox Series S', 'Nintendo Switch', 'Web'
+  ];
+  return commonPlatforms.sort();
 };
