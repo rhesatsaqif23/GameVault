@@ -1,20 +1,45 @@
+"use client";
+
 import Link from 'next/link';
-import React from 'react';
+import { motion } from 'framer-motion';
+import Button from '@/components/ui/Button';
 
 const NotFoundPage = () => {
   return (
     <main className="flex flex-col items-center justify-center min-h-[70vh] px-4 text-center">
-      <h1 className="text-6xl font-bold mb-4">404</h1>
-      <h2 className="text-2xl font-semibold mb-6">Page Not Found</h2>
-      <p className="text-gray-500 mb-8">
-        Oops! The page you&apos;re looking for doesn&apos;t exist.
-      </p>
-      <Link 
-        href="/" 
-        className="px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
+      <motion.h1 
+        initial={{ y: -20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ 
+          type: "spring", 
+          stiffness: 300, 
+          damping: 20,
+          repeat: Infinity,
+          repeatType: "reverse",
+          repeatDelay: 0.5,
+          duration: 2
+        }}
+        className="text-8xl md:text-9xl font-black mb-4 text-primary/20 drop-shadow-sm"
       >
-        Back to Home
-      </Link>
+        404
+      </motion.h1>
+      
+      <motion.div
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <h2 className="text-2xl md:text-4xl font-bold mb-4">Page Not Found</h2>
+        <p className="text-foreground/60 max-w-md mx-auto mb-10 text-base md:text-lg">
+          The page you&apos;re looking for might have been moved, deleted, or never existed in the vault.
+        </p>
+        
+        <Link href="/">
+          <Button size="lg" className="px-8">
+            Back to Home
+          </Button>
+        </Link>
+      </motion.div>
     </main>
   );
 };

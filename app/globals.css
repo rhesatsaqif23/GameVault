@@ -54,16 +54,17 @@
     border-color: var(--border);
   }
   
+  /* Universal Cursor Hide - Ensures NO default browser cursor is visible anywhere */
+  *, *::before, *::after {
+    cursor: none !important;
+  }
+  
   html, body {
-    cursor: none;
+    cursor: none !important;
+    min-height: 100vh;
   }
 
-  /* Specific clickable elements need to have cursor: none to avoid showing the system pointer */
-  a, button, [role="button"], input, select, label {
-    cursor: none;
-  }
-
-  /* Ensure Next.js error overlays and debug tools keep their native cursor */
+  /* Ensure Next.js error overlays and debug tools keep their native cursor if they use portal */
   #nextjs-portal *,
   [data-nextjs-dialog-overlay] *,
   [data-nextjs-toast] * {
