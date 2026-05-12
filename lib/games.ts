@@ -83,23 +83,23 @@ export const getFeaturedGames = (): Game[] => {
 };
 
 /**
- * Returns a list of all unique genres.
+ * Returns a list of all unique genres that actually have games.
  */
 export const getAllGenres = (): string[] => {
-  const commonGenres = [
-    'Action', 'Adventure', 'RPG', 'Strategy', 'Puzzle', 
-    'Simulation', 'Horror', 'Indie', 'Platformer', 'Racing', 
-    'Sports', 'Casual', 'Fighting', 'Stealth'
-  ];
-  return commonGenres.sort();
+  const genresSet = new Set<string>();
+  games.forEach(game => {
+    game.genres.forEach(genre => genresSet.add(genre));
+  });
+  return Array.from(genresSet).sort();
 };
 
 /**
- * Returns a list of all unique platforms.
+ * Returns a list of all unique platforms that actually have games.
  */
 export const getAllPlatforms = (): string[] => {
-  const commonPlatforms = [
-    'PC', 'PS5', 'Xbox Series X', 'Xbox Series S', 'Nintendo Switch', 'Web'
-  ];
-  return commonPlatforms.sort();
+  const platformsSet = new Set<string>();
+  games.forEach(game => {
+    game.platforms.forEach(platform => platformsSet.add(platform));
+  });
+  return Array.from(platformsSet).sort();
 };

@@ -33,29 +33,29 @@ export default function Home() {
     <div className="w-full">
       <HeroBanner games={bannerGames} />
 
-      <div className="container mx-auto px-4 py-8 md:py-12">
+      <div className="container mx-auto pb-12 md:pb-16">
         <motion.section 
-          className="mt-8 md:mt-16"
+          className="mt-4 md:mt-16"
           initial="initial"
           whileInView="whileInView"
           viewport={{ once: true }}
           variants={staggerContainer}
         >
-          <div className="flex items-center justify-between mb-10">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8 md:mb-10">
             <motion.div variants={fadeIn}>
-              <h2 className="text-4xl font-black text-foreground">Top Picks</h2>
-              <p className="text-lg text-foreground/80 mt-1">
+              <h2 className="text-2xl md:text-4xl font-black text-foreground">Top Picks</h2>
+              <p className="text-sm md:text-lg text-foreground/80 mt-1">
                 Handpicked favorites from our community
               </p>
             </motion.div>
             <motion.div variants={fadeIn}>
               <Link
                 href="/games"
-                className="group flex items-center gap-2 text-lg text-primary font-bold transition-all hover:gap-3"
+                className="group flex items-center gap-2 text-base md:text-lg text-primary font-bold transition-all hover:gap-3"
               >
                 Explore Library
                 <svg
-                  className="w-6 h-6"
+                  className="w-5 h-5 md:w-6 md:h-6"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -76,55 +76,55 @@ export default function Home() {
           </motion.div>
 
           <motion.div 
-            className="mt-16 text-center"
+            className="mt-6 md:mt-12 text-center"
             variants={fadeIn}
           >
             <Link href="/games">
-              <Button>Discover More Games</Button>
+              <Button size="lg">Discover More Games</Button>
             </Link>
           </motion.div>
         </motion.section>
 
         <motion.section 
-          className="mt-24 py-20 bg-card/50 rounded-2xl border border-border text-center px-6 relative overflow-hidden group"
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
+          className="mt-12 md:mt-16 py-12 md:py-20 bg-card/50 rounded-2xl border border-border text-center px-4 md:px-6 relative overflow-hidden group"
+          initial={{ opacity: 0, scale: 0.98, y: 30 }}
+          whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.8 }}
         >
           <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           
           <motion.h2 
-            className="text-4xl font-black mb-4 relative z-10"
+            className="text-2xl md:text-4xl font-black mb-3 md:mb-4 relative z-10"
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 1.2, delay: 0.4 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
           >
             Ready to play?
           </motion.h2>
           <motion.p 
-            className="text-lg text-foreground/80 max-w-xl mx-auto mb-10 relative z-10"
+            className="text-sm md:text-lg text-foreground/80 max-w-xl mx-auto mb-8 md:mb-10 relative z-10"
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 1.2, delay: 0.6 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
           >
             Join thousands of players exploring the best indie games developed
             by the GameVerse Studio.
           </motion.p>
           <motion.div 
-            className="flex flex-col sm:flex-row gap-4 justify-center relative z-10"
+            className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center relative z-10"
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 1.2, delay: 0.8 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
           >
             <Link href="/games">
-              <Button size="lg">Browse Catalog</Button>
+              <Button size="lg" className="w-full sm:w-auto">Browse Catalog</Button>
             </Link>
             <Link href="/wishlist">
-              <Button variant="outline" size="lg">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto">
                 View Wishlist
               </Button>
             </Link>

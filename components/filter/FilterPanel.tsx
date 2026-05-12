@@ -31,7 +31,7 @@ const AccordionItem = ({
           onClick={onToggle}
           className="grow flex items-center justify-between py-4 group transition-colors"
         >
-          <span className={`text-sm font-bold uppercase tracking-wider transition-colors ${isExpanded ? 'text-primary' : 'text-foreground transition-colors group-hover:text-primary'}`}>
+          <span className="text-sm font-bold uppercase tracking-wider text-foreground group-hover:text-primary transition-colors">
             {title}
             {hasCount && (
               <span className="ml-2 text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-bold">
@@ -50,7 +50,7 @@ const AccordionItem = ({
             </button>
           )}
           <button onClick={onToggle}>
-            <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isExpanded ? 'rotate-180 text-primary' : 'text-foreground/80'}`} />
+            <ChevronDown className={`w-4 h-4 transition-all duration-300 ${isExpanded ? 'rotate-180 text-foreground' : 'text-foreground/80 group-hover:text-primary'}`} />
           </button>
         </div>
       </div>
@@ -214,34 +214,49 @@ const FilterPanel = () => {
           }}
         >
           <div className="space-y-3">
-            <div className="space-y-2.5">
-              <div className="relative group">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-border/50 bg-background rounded-l-lg px-3 mr-4">
-                  <span className="text-sm font-bold text-foreground">Rp</span>
+              <div className="flex flex-col gap-2.5">
+                {/* Min Price */}
+                <div 
+                  className="flex items-center bg-background border border-border/50 rounded-lg overflow-hidden transition-all duration-200 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20 hover:border-primary/30 group cursor-text"
+                  onClick={(e) => {
+                    const input = e.currentTarget.querySelector('input');
+                    input?.focus();
+                  }}
+                >
+                  <div className="px-3 py-2.5 bg-background border-r border-border/50 flex items-center justify-center pointer-events-none">
+                    <span className="text-sm font-bold text-foreground">Rp</span>
+                  </div>
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    placeholder="Min Price"
+                    value={formatPrice(minPrice)}
+                    onChange={handlePriceChange(setMinPrice)}
+                    className="flex-1 px-4 py-2.5 bg-transparent text-sm font-bold outline-none placeholder:text-foreground/30"
+                  />
                 </div>
-                <input
-                  type="text"
-                  inputMode="numeric"
-                  placeholder="Min Price"
-                  value={formatPrice(minPrice)}
-                  onChange={handlePriceChange(setMinPrice)}
-                  className="w-full pl-16 pr-4 py-2.5 bg-background border border-border/50 rounded-lg text-sm font-bold focus:ring-2 focus:ring-primary/20 focus:border-primary/50 outline-none transition-all placeholder:text-foreground/30"
-                />
-              </div>
-              <div className="relative group">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-border/50 bg-background rounded-l-lg px-3 mr-4">
-                  <span className="text-sm font-bold text-foreground">Rp</span>
+
+                {/* Max Price */}
+                <div 
+                  className="flex items-center bg-background border border-border/50 rounded-lg overflow-hidden transition-all duration-200 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20 hover:border-primary/30 group cursor-text"
+                  onClick={(e) => {
+                    const input = e.currentTarget.querySelector('input');
+                    input?.focus();
+                  }}
+                >
+                  <div className="px-3 py-2.5 bg-background border-r border-border/50 flex items-center justify-center pointer-events-none">
+                    <span className="text-sm font-bold text-foreground">Rp</span>
+                  </div>
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    placeholder="Max Price"
+                    value={formatPrice(maxPrice)}
+                    onChange={handlePriceChange(setMaxPrice)}
+                    className="flex-1 px-4 py-2.5 bg-transparent text-sm font-bold outline-none placeholder:text-foreground/30"
+                  />
                 </div>
-                <input
-                  type="text"
-                  inputMode="numeric"
-                  placeholder="Max Price"
-                  value={formatPrice(maxPrice)}
-                  onChange={handlePriceChange(setMaxPrice)}
-                  className="w-full pl-16 pr-4 py-2.5 bg-background border border-border/50 rounded-lg text-sm font-bold focus:ring-2 focus:ring-primary/20 focus:border-primary/50 outline-none transition-all placeholder:text-foreground/30"
-                />
               </div>
-            </div>
             <Button 
               size="sm" 
               className="w-full text-xs"

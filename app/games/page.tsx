@@ -6,6 +6,8 @@ import { searchGames } from "@/lib/games";
 import GameGrid from "@/components/game/GameGrid";
 import FilterPanel from "@/components/filter/FilterPanel";
 import SearchBar from "@/components/filter/SearchBar";
+import FilterDrawer from "@/components/filter/FilterDrawer";
+import { motion } from "framer-motion";
 
 const GameListContent = () => {
   const searchParams = useSearchParams();
@@ -14,12 +16,25 @@ const GameListContent = () => {
   const genre = searchParams.get("genre") || "All";
   const platform = searchParams.get("platform") || "All";
   const sort = searchParams.get("sort") || "newest";
-  const minPrice = searchParams.get("minPrice") ? Number(searchParams.get("minPrice")) : undefined;
-  const maxPrice = searchParams.get("maxPrice") ? Number(searchParams.get("maxPrice")) : undefined;
-  const minRating = searchParams.get("minRating") ? Number(searchParams.get("minRating")) : undefined;
+  const minPrice = searchParams.get("minPrice")
+    ? Number(searchParams.get("minPrice"))
+    : undefined;
+  const maxPrice = searchParams.get("maxPrice")
+    ? Number(searchParams.get("maxPrice"))
+    : undefined;
+  const minRating = searchParams.get("minRating")
+    ? Number(searchParams.get("minRating"))
+    : undefined;
 
   const filteredGames = useMemo(() => {
-    const result = searchGames(query, genre, platform, minPrice, maxPrice, minRating);
+    const result = searchGames(
+      query,
+      genre,
+      platform,
+      minPrice,
+      maxPrice,
+      minRating,
+    );
 
     // Sorting logic
     if (sort === "rating") {
@@ -37,22 +52,45 @@ const GameListContent = () => {
   }, [query, genre, platform, sort, minPrice, maxPrice, minRating]);
 
   return (
-    <main className="container mx-auto px-4 py-8 md:py-12">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-10">
-        <div>
-          <h1 className="text-4xl font-bold text-foreground mb-2">Discovery</h1>
-          <p className="text-lg text-medium text-foreground/80">
+    <motion.main
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="max-w-[1600px] mx-auto px-4 sm:px-8 md:px-12 py-8 md:py-12"
+    >
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8 md:mb-10">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <h1 className="text-2xl md:text-4xl font-bold text-foreground mb-1 md:mb-2">
+            Discovery
+          </h1>
+          <p className="text-sm md:text-lg text-medium text-foreground/80">
             Explore {filteredGames.length} amazing games from GameVerse
           </p>
-        </div>
-        <div className="w-full md:w-auto">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="w-full md:w-auto"
+        >
           <SearchBar />
-        </div>
+        </motion.div>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-8">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+        className="flex flex-col lg:flex-row gap-6 md:gap-8"
+      >
         <aside className="w-full lg:w-64 shrink-0 lg:sticky lg:top-24 self-start">
-          <FilterPanel />
+          <div className="hidden lg:block">
+            <FilterPanel />
+          </div>
+          <FilterDrawer />
         </aside>
 
         <div className="grow">
@@ -67,8 +105,8 @@ const GameListContent = () => {
             </div>
           )}
         </div>
-      </div>
-    </main>
+      </motion.div>
+    </motion.main>
   );
 };
 
@@ -76,7 +114,7 @@ const GameListPage = () => {
   return (
     <Suspense
       fallback={
-        <main className="container mx-auto px-4 py-8 md:py-12">
+        <main className="max-w-[1600px] mx-auto px-4 py-8 md:py-12">
           <div className="animate-pulse space-y-8">
             <div className="h-12 bg-card rounded-lg w-1/3"></div>
             <div className="flex flex-col lg:flex-row gap-8">

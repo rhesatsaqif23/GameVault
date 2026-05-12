@@ -16,10 +16,10 @@ const GameCard = ({ game }: GameCardProps) => {
   const [isImageLoading, setIsImageLoading] = React.useState(true);
 
   return (
-    <div className="group relative bg-card rounded-xl border border-border overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 hover:-translate-y-1">
+    <div className="group relative bg-card rounded-xl border border-border transition-all duration-500 hover:shadow-[0_20px_50px_rgba(109,81,194,0.15)] hover:-translate-y-2 hover:border-primary/30">
       <Link
         href={`/games/${game.slug}`}
-        className="block relative aspect-16/10 overflow-hidden"
+        className="block relative aspect-16/10 overflow-hidden rounded-t-xl"
       >
         {isImageLoading && (
           <div className="absolute inset-0 bg-foreground/5 animate-pulse z-10" />
@@ -36,13 +36,13 @@ const GameCard = ({ game }: GameCardProps) => {
         <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </Link>
 
-      <div className="p-5">
+      <div className="p-4 md:p-5">
         <div className="flex justify-between items-start mb-3">
           <div className="flex flex-wrap gap-1.5">
             {game.genres.slice(0, 2).map((g) => (
               <span
                 key={g}
-                className="text-xs font-bold uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full"
+                className="text-[10px] md:text-xs font-bold uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-full"
               >
                 {g}
               </span>
@@ -52,21 +52,21 @@ const GameCard = ({ game }: GameCardProps) => {
         </div>
 
         <Link href={`/games/${game.slug}`}>
-          <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors line-clamp-1">
+          <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-primary transition-colors line-clamp-1">
             {game.title}
           </h3>
         </Link>
 
-        <p className="text-sm text-foreground/80 line-clamp-2 mb-4 min-h-[40px]">
+        <p className="text-xs md:text-sm text-foreground/80 line-clamp-2 mb-4 min-h-[32px] md:min-h-[40px]">
           {game.description}
         </p>
 
-        <div className="flex items-center justify-between mt-auto pt-4 border-t border-border">
+        <div className="flex items-center justify-between mt-auto pt-3 md:pt-4 border-t border-border">
           <PriceBadge price={game.price} />
           <WishlistButton
             gameId={game.id}
             showText={false}
-            className="p-2.5 rounded-lg"
+            className="p-2 md:p-2.5 rounded-lg"
           />
         </div>
       </div>

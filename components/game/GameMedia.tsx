@@ -34,7 +34,7 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
       {/* Main Cover Image */}
       <section>
         <div 
-          className="group relative aspect-video rounded-3xl overflow-hidden border border-border shadow-2xl cursor-none"
+          className="group relative aspect-video rounded-3xl overflow-hidden border border-border shadow-2xl"
           onClick={() => setCurrentIndex(0)}
         >
           <Image
@@ -64,11 +64,29 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
         </h2>
         
         {screenshots.length > 0 ? (
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <motion.div 
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            variants={{
+              hidden: { opacity: 0 },
+              show: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.1
+                }
+              }
+            }}
+            className="grid grid-cols-2 md:grid-cols-3 gap-4"
+          >
             {screenshots.map((src, index) => (
-              <div 
+              <motion.div 
                 key={index} 
-                className="group relative aspect-video cursor-none rounded-2xl overflow-hidden border border-border shadow-sm"
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  show: { opacity: 1, y: 0 }
+                }}
+                className="group relative aspect-video rounded-xl overflow-hidden border border-border shadow-sm"
                 onClick={() => setCurrentIndex(index + 1)}
               >
                 <Image 
@@ -81,9 +99,9 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <Maximize2 size={32} strokeWidth={1.5} className="text-white drop-shadow-lg" />
                 </div>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         ) : (
           <div className="text-center py-12 bg-card rounded-2xl border border-dashed border-border text-foreground/60 font-medium">
             No additional screenshots available.
@@ -98,7 +116,7 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-100 flex items-center justify-center bg-black/90 p-8 md:p-20 cursor-zoom-out"
+            className="fixed inset-0 z-100 flex items-center justify-center bg-black/90 p-8 md:p-20"
             onClick={() => setCurrentIndex(null)}
           >
             {/* Close Button */}

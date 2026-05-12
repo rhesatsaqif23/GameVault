@@ -11,29 +11,29 @@ const Footer = () => {
 
   return (
     <footer
-      className={`relative pt-20 pb-10 border-t border-white/10 text-white overflow-hidden transition-colors duration-300 ${
+      className={`relative pt-12 md:pt-20 pb-10 border-t border-white/10 text-white overflow-hidden transition-colors duration-300 ${
         theme === "dark"
           ? "bg-[#090610] bg-linear-to-b from-[#090610] via-[#090610] to-[#120a24]"
           : "bg-[#6d51c2] bg-linear-to-b from-[#6d51c2] via-[#6d51c2] to-[#6040b8]"
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-8 mb-16">
+        <div className="grid grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-8 mb-16">
           {/* Column 1: Brand & Newsletter */}
-          <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-4 mb-6">
+          <div className="col-span-2 lg:col-span-2">
+            <Link href="/" className="flex items-center gap-3 md:gap-4 mb-6">
               <Image
                 src="/gamevault-logo.png"
                 alt="GameVault Logo"
-                width={32}
-                height={32}
-                className="w-8 h-8"
+                width={28}
+                height={28}
+                className="w-7 h-7 md:w-8 md:h-8"
               />
-              <span className="text-2xl font-black tracking-wide text-white">
+              <span className="text-xl md:text-2xl font-black tracking-wide text-white">
                 Game<span>Vault</span>
               </span>
             </Link>
-            <p className="text-white/90 mb-8 max-w-sm leading-relaxed">
+            <p className="text-sm md:text-base text-white/90 mb-8 max-w-sm leading-relaxed">
               GameVault lets you discover and track the best indie games
               instantly. Fast, secure, and built for the passionate gaming
               community.
@@ -43,7 +43,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your Email"
-                className="w-full bg-transparent px-4 py-2 outline-none text-sm text-white"
+                className="w-full bg-transparent px-3 py-2 outline-none text-xs md:text-sm text-white"
               />
               <Button
                 size="sm"
@@ -156,8 +156,8 @@ const Footer = () => {
 
           {/* Column 2: Explore */}
           <div>
-            <h4 className="font-bold text-lg mb-6 text-white">Explore</h4>
-            <ul className="space-y-4 text-white/70">
+            <h4 className="font-bold text-base md:text-lg mb-4 md:mb-6 text-white">Explore</h4>
+            <ul className="space-y-3 md:space-y-4 text-xs md:text-sm text-white/70">
               <li>
                 <Link
                   href="/games"
@@ -200,8 +200,8 @@ const Footer = () => {
 
           {/* Column 3: Community */}
           <div>
-            <h4 className="font-bold text-lg mb-6 text-white">Community</h4>
-            <ul className="space-y-4 text-white/70">
+            <h4 className="font-bold text-base md:text-lg mb-4 md:mb-6 text-white">Community</h4>
+            <ul className="space-y-3 md:space-y-4 text-xs md:text-sm text-white/70">
               <li>
                 <Link href="#" className="hover:text-white transition-colors">
                   Forums
@@ -232,8 +232,8 @@ const Footer = () => {
 
           {/* Column 4: About Us */}
           <div>
-            <h4 className="font-bold text-lg mb-6 text-white">About Us</h4>
-            <ul className="space-y-4 text-white/70">
+            <h4 className="font-bold text-base md:text-lg mb-4 md:mb-6 text-white">About Us</h4>
+            <ul className="space-y-3 md:space-y-4 text-xs md:text-sm text-white/70">
               <li>
                 <Link href="#" className="hover:text-white transition-colors">
                   Our Story
@@ -264,8 +264,8 @@ const Footer = () => {
 
           {/* Column 5: Legal */}
           <div>
-            <h4 className="font-bold text-lg mb-6 text-white">Legal</h4>
-            <ul className="space-y-4 text-white/70">
+            <h4 className="font-bold text-base md:text-lg mb-4 md:mb-6 text-white">Legal</h4>
+            <ul className="space-y-3 md:space-y-4 text-xs md:text-sm text-white/70">
               <li>
                 <Link href="#" className="hover:text-white transition-colors">
                   Terms of Service

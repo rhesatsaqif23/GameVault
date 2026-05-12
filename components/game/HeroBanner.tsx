@@ -37,7 +37,7 @@ const HeroBanner = ({ games }: HeroBannerProps) => {
   const currentGame = games[currentIndex];
 
   return (
-    <div className="relative h-[calc(100vh-64px)] w-full overflow-hidden bg-[#090610] shadow-2xl group/banner">
+    <div className="relative h-[450px] md:h-[calc(100vh-64px)] w-full overflow-hidden bg-[#090610] shadow-2xl group/banner">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentIndex}
@@ -52,10 +52,10 @@ const HeroBanner = ({ games }: HeroBannerProps) => {
             alt={currentGame.title}
             fill
             className="object-cover"
-            priority
+            priority={currentIndex === 0}
             unoptimized
           />
-          <div className="absolute inset-0 bg-linear-to-r from-[#090610] via-[#1d103a]/80 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-b from-[#090610]/40 via-[#090610]/80 to-[#090610] md:bg-linear-to-r md:from-[#090610] md:via-[#1d103a]/80 md:to-transparent" />
         </motion.div>
       </AnimatePresence>
 
@@ -69,11 +69,11 @@ const HeroBanner = ({ games }: HeroBannerProps) => {
             transition={{ duration: 1.2, delay: 0.5 }}
             className="flex flex-col items-start"
           >
-            <h1 className="text-4xl md:text-7xl font-black tracking-wide text-white mb-6 drop-shadow-lg">
+            <h1 className="text-3xl md:text-7xl font-black tracking-wide text-white mb-3 md:mb-6 drop-shadow-lg">
               {currentGame.title}
             </h1>
 
-            <p className="text-lg md:text-xl text-white mb-8 line-clamp-3 drop-shadow-md max-w-2xl">
+            <p className="text-sm md:text-xl text-white/90 mb-6 md:mb-8 line-clamp-3 drop-shadow-md max-w-2xl">
               {currentGame.description}
             </p>
 
@@ -87,19 +87,23 @@ const HeroBanner = ({ games }: HeroBannerProps) => {
       </div>
 
       {/* Manual Navigation Controls */}
-      <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between px-4 md:px-10 z-30 opacity-0 group-hover/banner:opacity-100 transition-opacity duration-300 pointer-events-none">
-        <button
+      <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between px-2 md:px-10 z-30 opacity-0 group-hover/banner:opacity-100 transition-opacity duration-300 pointer-events-none">
+        <motion.button
+          whileHover={{ scale: 1.1, backgroundColor: "rgba(255,255,255,0.1)" }}
+          whileTap={{ scale: 0.9 }}
           onClick={handlePrev}
-          className="p-2 text-white/30 hover:text-white/60 transition-all pointer-events-auto active:scale-90"
+          className="p-3 text-white/50 hover:text-white transition-all pointer-events-auto rounded-full"
         >
-          <ChevronLeft size={48} strokeWidth={2} />
-        </button>
-        <button
+          <ChevronLeft className="w-8 h-8 md:w-12 md:h-12" strokeWidth={2} />
+        </motion.button>
+        <motion.button
+          whileHover={{ scale: 1.1, backgroundColor: "rgba(255,255,255,0.1)" }}
+          whileTap={{ scale: 0.9 }}
           onClick={handleNext}
-          className="p-2 text-white/30 hover:text-white/60 transition-all pointer-events-auto active:scale-90"
+          className="p-3 text-white/50 hover:text-white transition-all pointer-events-auto rounded-full"
         >
-          <ChevronRight size={48} strokeWidth={2} />
-        </button>
+          <ChevronRight className="w-8 h-8 md:w-12 md:h-12" strokeWidth={2} />
+        </motion.button>
       </div>
 
       <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-3 z-20">
