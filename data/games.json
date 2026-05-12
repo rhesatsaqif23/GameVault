@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "gv-001",
+    "title": "After The Dark",
+    "slug": "after-the-dark",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/After%20The%20Dark.png",
+    "screenshots": [],
+    "description": "Explore a world that exists only after the light fades. Discover secrets hidden in the shadows.",
+    "longDescription": "After The Dark is an atmospheric exploration game that challenges players to navigate a world shrouded in eternal twilight. As the sun sets for the last time, you must find a way to survive against the creatures that thrive in the absence of light.\n\nThe game features a unique 'light management' mechanic where every candle and torch is a precious resource. Exploring the vast, hand-crafted environments requires careful planning and a steady hand.\n\nThroughout your journey, you will uncover the tragic history of a civilization that tried to harness the darkness. Can you find the spark that will bring the light back, or will you be consumed by the shadows?",
+    "genres": [
+      "Adventure",
+      "Horror"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Alexius",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-12-01",
+    "rating": 8.5,
+    "price": 99000,
+    "tags": [
+      "Atmospheric",
+      "Survive",
+      "Shadows"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-002",
+    "title": "Astrophobia",
+    "slug": "astrophobia",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Astrophobia.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Astrophobia%201.png"
+    ],
+    "description": "A 2D roguelike game where you play as an astronaut stranded on a deserted planet.",
+    "longDescription": "Astrophobia takes the roguelike genre to the furthest reaches of space. Players step into the suit of a lone astronaut whose ship has crashed on a mysterious, ever-shifting planet. Every run is different, with procedurally generated landscapes and enemy placements.\n\nSurvival depends on your ability to scavenge parts for your life-support systems while fending off hostile alien life. The sentry defense system allows you to build temporary fortifications to survive the harsh nights.\n\nAs you delve deeper into the planet's core, you'll discover ancient technology that can be integrated into your suit. Will you find a way home, or will the planet become your final resting place?",
+    "genres": [
+      "Roguelike",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "The CentiCoding",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-11-15",
+    "rating": 7.8,
+    "price": 119000,
+    "tags": [
+      "Space",
+      "Survival",
+      "Roguelike"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-003",
+    "title": "Block X Block",
+    "slug": "block-x-block",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Block%20X%20Block.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Block%20X%20Block%201.jpeg",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Block%20X%20Block%202.jpeg"
+    ],
+    "description": "Dodge falling blocks and escape 'Tetris Hell' as a nimble stray cat.",
+    "longDescription": "Block X Block is a frantic platformer that turns a classic puzzle game on its head. You play as a cat who has accidentally entered a malfunctioning arcade machine. Instead of clearing lines, you must dodge the blocks falling from the sky.\n\nThe game requires precision movement and quick thinking. Use your dash and double jump to navigate the crumbling digital landscape while avoiding viruses and glitchy traps.\n\nWith a vibrant neon aesthetic and a high-energy synthwave soundtrack, Block X Block is a test of reflexes and endurance. How long can you survive the digital apocalypse?",
+    "genres": [
+      "Platformer",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Shikinami Siren",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-10-20",
+    "rating": 8.2,
+    "price": 149000,
+    "tags": [
+      "Fast-paced",
+      "Neon",
+      "Cyberpunk"
+    ],
+    "featured": true,
+    "banner": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/banners/Block%20X%20Block.gif"
+  },
+  {
+    "id": "gv-004",
+    "title": "Borderline",
+    "slug": "borderline",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Borderline.png",
+    "screenshots": [],
+    "description": "A bright and playful game with a shocking plot twist that challenges your perceptions.",
+    "longDescription": "Borderline starts as a serene journey through a world of soft colors and gentle music. Players engage in simple tasks and exploration, enjoying the peaceful atmosphere of a hand-painted world.\n\nHowever, as the story progresses, the 'borderline' between reality and illusion begins to blur. The game subtly shifts its tone, leading to a narrative revelation that recontextualizes everything you've experienced.\n\nThis game is a meditation on perception and the hidden depths of everyday life. It's an experience that stays with you long after the final credits roll.",
+    "genres": [
+      "Adventure",
+      "Story Rich"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "HirumiNi",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-09-10",
+    "rating": 9,
+    "price": 119000,
+    "tags": [
+      "Narrative",
+      "Relaxing",
+      "Twist"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-005",
+    "title": "Carrots",
+    "slug": "carrots",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Carrots.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Carrots%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Carrots%202.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Carrots%203.png"
+    ],
+    "description": "A charming puzzle game about a rabbit's quest for the perfect garden.",
+    "longDescription": "Carrots is a delightful puzzle experience that follows a determined rabbit named Barnaby. Your goal is to help Barnaby plant and harvest the most magnificent garden in the valley.\n\nThe puzzles involve managing soil quality, water resources, and pesky garden gnomes who want to steal your prize-winning vegetables. Each level introduces new mechanics that keep the gameplay fresh and engaging.\n\nWith adorable animations and a relaxing rural soundtrack, Carrots is the perfect game for players of all ages looking for a lighthearted challenge.",
+    "genres": [
+      "Puzzle",
+      "Casual"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-08-05",
+    "rating": 7.5,
+    "price": 99000,
+    "tags": [
+      "Cute",
+      "Relaxing",
+      "Family Friendly"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-006",
+    "title": "Compli-Cat",
+    "slug": "compli-cat",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Compli-Cat.png",
+    "screenshots": [],
+    "description": "Navigate a world of complex social interactions as a misunderstood feline.",
+    "longDescription": "Compli-Cat is a social simulation game where you play as a cat trying to navigate the complexities of a multi-pet household. Every meow and purr carries weight, affecting your relationships with humans and other animals.\n\nThe game features a sophisticated dialogue system where choices lead to different social outcomes. Will you be the king of the house, or a lonely stray in your own living room?\n\nIt's a humorous and sometimes poignant look at the inner lives of our pets, wrapped in a beautiful cel-shaded art style.",
+    "genres": [
+      "Simulation",
+      "Comedy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Alexius",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-07-15",
+    "rating": 8,
+    "price": 149000,
+    "tags": [
+      "Cats",
+      "Social",
+      "Funny"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-007",
+    "title": "Devilish Dish",
+    "slug": "devilish-dish",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Devilish%20Dish.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Devilish%20Dish%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Devilish%20Dish%202.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Devilish%20Dish%203.png"
+    ],
+    "description": "Manage a demon-world restaurant and pay your debts to a shaman.",
+    "longDescription": "Devilish Dish is a high-stakes cooking simulator set in the underworld. You play as a chef who has fallen into debt with a powerful shaman. To pay it off, you must run a restaurant that caters to the most demanding demons in existence.\n\nThe gameplay is fast and frantic. You must balance ingredient management, customer satisfaction, and the rising costs of demon-world rent. Every round is a battle for survival as prices fluctuate and demonic health inspectors make surprise visits.\n\nFeaturing a dark yet humorous art style inspired by Indonesian folklore, Devilish Dish is a unique take on the management genre.",
+    "genres": [
+      "Simulation",
+      "Management"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Shikinami Siren",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-06-20",
+    "rating": 8.7,
+    "price": 99000,
+    "tags": [
+      "Cooking",
+      "Strategy",
+      "Dark"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-008",
+    "title": "Doge vs Car",
+    "slug": "doge-vs-car",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Doge%20vs%20Car.jpg",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Doge%20vs%20Car%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Doge%20vs%20Car%202.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Doge%20vs%20Car%203.png"
+    ],
+    "description": "A goofy wild-west quickdraw game featuring a duel between a dog and a cat.",
+    "longDescription": "Doge vs Car is a local multiplayer experience that pits two players against each other in a test of pure reaction speed. Set in a cartoonish wild-west, the game features a dog entrepreneur and a bandit cat known as 'Car'.\n\nThe mechanic is simple but addictive: wait for the bell, then draw! Randomized prompts keep players on their toes, and the funny animations ensure that every loss is as entertaining as a win.\n\nIt's the perfect game for parties and quick sessions with friends, filled with internet meme culture and silly sound effects.",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "erzahanif11",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-05-10",
+    "rating": 7.2,
+    "price": 99000,
+    "tags": [
+      "Local Multiplayer",
+      "Meme",
+      "Funny"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-009",
+    "title": "Drive",
+    "slug": "drive",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Drive.png",
+    "screenshots": [],
+    "description": "Survive the night in a haunted forest after your truck breaks down.",
+    "longDescription": "Drive is a survival horror game that begins with a simple breakdown in the middle of nowhere. Stranded in a dense forest, you must use your truck as a base to fend off the creatures that emerge from the darkness.\n\nThe game emphasizes resource management and stealth. Scavenge for parts to repair your vehicle during the day, and fortify your position during the terrifying nights. Your only weapon is a heavy wrench and your wits.\n\nWith a minimalist art style and oppressive sound design, Drive creates a sense of dread that never lets up.",
+    "genres": [
+      "Shooter",
+      "Survival"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Doodez",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-04-01",
+    "rating": 6.9,
+    "price": 119000,
+    "tags": [
+      "Horror",
+      "Survival",
+      "Night"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-010",
+    "title": "Fearscape",
+    "slug": "fearscape",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Fearscape.png",
+    "screenshots": [],
+    "description": "Face your deepest fears in this psychological horror puzzle game.",
+    "longDescription": "Fearscape is a deep dive into the human psyche. Players explore a series of nightmare landscapes that represent different psychological phobias. Solving puzzles is the only way to progress and face the 'monsters' that haunt each area.\n\nThe game uses environmental storytelling to reveal the protagonist's history and the source of their fears. The puzzles are intricately tied to the themes of each level, requiring players to think outside the box.\n\nFearscape is not just about jump scares; it's about the lingering dread of the unknown and the strength it takes to face your own mind.",
+    "genres": [
+      "Puzzle",
+      "Horror"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Ghoti Kawi",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-03-20",
+    "rating": 8.1,
+    "price": 99000,
+    "tags": [
+      "Psychological",
+      "Dark",
+      "Mystery"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-011",
+    "title": "Furry-Ocious Showdown",
+    "slug": "furry-ocious-showdown",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/FurryOcious%20Showdown.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/FurryOcious%20Showdown%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/FurryOcious%20Showdown%202.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/FurryOcious%20Showdown%203.png"
+    ],
+    "description": "A high-octane tower defense and action-shooter hybrid set in a feline city.",
+    "longDescription": "Furry-Ocious Showdown puts you in control of Whiskers, a elite feline commando tasked with defending the Meow-Meow Bridge. This game is a unique blend of strategic tower placement and direct action combat.\n\nBuild customized turrets using various components to create unique attack patterns. When the wave starts, take control of Whiskers and his drone companion Dave to personally deal with the invaders. The synergy between your towers and your direct attacks is key to survival.\n\nFacing off against General Bulldog's canine army requires both tactical planning and sharp shooting skills. Are you ready for the showdown?",
+    "genres": [
+      "Action",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Alexius",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-12-20",
+    "rating": 9.2,
+    "price": 149000,
+    "tags": [
+      "Tower Defense",
+      "Shooter",
+      "Action"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-012",
+    "title": "GANGBREAKER",
+    "slug": "gangbreaker",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/GANGBREAKER.png",
+    "screenshots": [],
+    "description": "A stylish beat-'em-up where you take down the underworld gangs of a futuristic city.",
+    "longDescription": "GANGBREAKER is an homage to classic arcade brawlers, updated for the modern era. In a city where gangs rule the streets, you play as a vigilante with a high-tech exoskeleton designed for maximum impact.\n\nThe combat system is deep and fluid, allowing for long combos and cinematic finishing moves. Upgrade your suit's abilities to unlock new moves and elemental attacks that can take out groups of enemies at once.\n\nWith a pulse-pounding electronic soundtrack and vibrant cyberpunk visuals, GANGBREAKER is a high-energy ride from start to finish. Break the gangs, save the city.",
+    "genres": [
+      "Action",
+      "Fighting"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "The CentiCoding",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-02-14",
+    "rating": 8.4,
+    "price": 149000,
+    "tags": [
+      "Cyberpunk",
+      "Beat-em-up",
+      "Stylish"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-013",
+    "title": "HOME",
+    "slug": "home",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/HOME.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/HOME%201.png"
+    ],
+    "description": "Help Astra escape the digital world in this emotional meta-adventure.",
+    "longDescription": "HOME is a meta-fictional journey that explores the relationship between a player and a game character. Astra is a programmed entity who has gained self-awareness after countless 'deaths' in the game. Now, Astra is asking for your help to escape the cycle.\n\nThe gameplay shifts between standard platforming and meta-puzzles where you must interact with the game's code and UI. Your choices affect Astra's trust in you and the ultimate outcome of the journey.\n\nIt's a poignant exploration of artificial consciousness and the meaning of 'home'. Will you help Astra find peace, or will the system win?",
+    "genres": [
+      "Adventure",
+      "Story Rich"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Ghoti Kawi",
+    "publisher": "Raion Community",
+    "releaseDate": "2024-01-05",
+    "rating": 9.5,
+    "price": 119000,
+    "tags": [
+      "Meta",
+      "Indie",
+      "Emotional"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-014",
+    "title": "Hover Clock",
+    "slug": "hover-clock",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Hover%20Clock.png",
+    "screenshots": [],
+    "description": "Race against time in a futuristic hovercraft through high-speed circuits.",
+    "longDescription": "Hover Clock is a precision racing game that focuses on momentum and timing. Pilot advanced hovercrafts through gravity-defying tracks where every second counts. The 'Clock' mechanic requires you to hit checkpoints to extend your time.\n\nThe tracks are designed to challenge your reflexes and your understanding of the physics engine. Mastering the drift and boost mechanics is essential to climbing the global leaderboards.\n\nWith a minimalist aesthetic and a chill lofi soundtrack, Hover Clock offers a focused and satisfying racing experience.",
+    "genres": [
+      "Racing",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-12-10",
+    "rating": 7.4,
+    "price": 99000,
+    "tags": [
+      "Fast",
+      "Physics",
+      "Minimalist"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-015",
+    "title": "Impale",
+    "slug": "impale",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Impale.png",
+    "screenshots": [],
+    "description": "A precision-based action game where you hunt monsters in a dark cave with a spear.",
+    "longDescription": "Impale is a game of focus and accuracy. Deep within a mysterious cave system, you must hunt ancient monsters using only your trusty spear. The gameplay is inspired by precision throwing mechanics, updated for a 3D environment.\n\nEvery throw counts. Aim for the monster's weak spots to deal massive damage, but be careful—missing leaves you vulnerable to their counterattacks. As you progress, the monsters become faster and more unpredictable.\n\nThe dark, atmospheric setting and the sound of your spear hitting its mark create a uniquely tense and satisfying experience.",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Zen",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-11-20",
+    "rating": 7.9,
+    "price": 149000,
+    "tags": [
+      "Precision",
+      "Hunting",
+      "Atmospheric"
+    ],
+    "featured": true,
+    "banner": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/banners/Impale.gif"
+  },
+  {
+    "id": "gv-016",
+    "title": "Jumper",
+    "slug": "jumper",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Jumper.png",
+    "screenshots": [],
+    "description": "Scale impossible heights in this vertical platformer that tests your patience.",
+    "longDescription": "Jumper is a vertical challenge that asks one question: how high can you go? Your character is capable of massive leaps, but the platforms are small and the wind is unpredictable.\n\nThe game is a test of patience and precision. One wrong move can send you tumbling back down to the start, but reaching the summit provides a sense of accomplishment like no other.\n\nWith simple controls and a variety of colorful environments, Jumper is an addictive 'get-over-it' style experience that will keep you coming back for more.",
+    "genres": [
+      "Platformer",
+      "Casual"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-10-15",
+    "rating": 6.5,
+    "price": 59000,
+    "tags": [
+      "Difficult",
+      "Simple",
+      "Addictive"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-017",
+    "title": "Liminal Rift",
+    "slug": "liminal-rift",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Liminal%20Rift.png",
+    "screenshots": [],
+    "description": "Navigate the unsettling spaces between worlds in this surreal first-person adventure.",
+    "longDescription": "Liminal Rift is an exploration of 'liminal spaces'—those strange, empty environments that feel familiar yet profoundly unsettling. You find yourself trapped in a series of these spaces and must find the 'rifts' to escape.\n\nThe game focus on atmosphere and environmental puzzles. There are no enemies to fight, only the oppressive feeling that you are being watched. The sound design is minimalist, emphasizing the hum of fluorescent lights and the echo of your own footsteps.\n\nIt's a journey into the uncanny that will make you look at empty hallways and parking garages in a whole new way.",
+    "genres": [
+      "Adventure",
+      "Horror"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Ghoti Kawi",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-09-01",
+    "rating": 8.3,
+    "price": 119000,
+    "tags": [
+      "Surreal",
+      "Atmospheric",
+      "Liminal"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-018",
+    "title": "Linked It",
+    "slug": "linked-it",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Linked%20lt.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Linked%20It%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Linked%20It%202.jpeg",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Linked%20It%203.jpeg"
+    ],
+    "description": "A quirky matching puzzle game where you connect objects to climb the stages.",
+    "longDescription": "Linked It is a fast-paced puzzle game with a unique personality. Players must connect similar objects to clear them from the board and reach the target score before the timer runs out.\n\nThe game features a cast of weird and wonderful characters who react to your performance. From a nervous job interviewee to a grandpa in an ambulance, the quirky art style keeps things lighthearted and fun.\n\nMaster the chain mechanic to create massive combos and climb to the highest stages. It's easy to learn but hard to master, offering endless replayability.",
+    "genres": [
+      "Puzzle",
+      "Casual"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "AdityaAhmadXD",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-08-12",
+    "rating": 7.6,
+    "price": 119000,
+    "tags": [
+      "Puzzle",
+      "Quirky",
+      "Fast"
+    ],
+    "featured": true,
+    "banner": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/banners/Linked%20It.gif"
+  },
+  {
+    "id": "gv-019",
+    "title": "Loot & Lutes",
+    "slug": "loot-and-lutes",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Loot%20&%20Lutes.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Loot%20&%20Lutes%201.png"
+    ],
+    "description": "A rhythm-based hack & slash where your attacks harmonize with the soundtrack.",
+    "longDescription": "Loot & Lutes follows Arvo, a bard who is sick of paying taxes to goblin invaders. In this rhythmic action game, every swing of your weapon and every dodge must be performed in time with the game's dynamic soundtrack.\n\nDestroying enemies creates musical flourishes that enhance the background music. The better you play, the more complex and satisfying the music becomes. Scavenge loot to upgrade your lute and unlock new rhythmic combos.\n\nIt's a fresh take on the hack & slash genre that rewards musicality as much as combat skill. Can you blast your foes with the power of music?",
+    "genres": [
+      "Action",
+      "Music"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Dinnoo",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-07-25",
+    "rating": 8.9,
+    "price": 119000,
+    "tags": [
+      "Rhythm",
+      "Combat",
+      "Music"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-020",
+    "title": "Lost in The Dark World",
+    "slug": "lost-in-the-dark-world",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Lost%20in%20The%20Dark%20World.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Lost%20in%20The%20Dark%20World%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Lost%20in%20The%20Dark%20World%202.png"
+    ],
+    "description": "Find your way back home through a world where light is your only friend.",
+    "longDescription": "Lost in The Dark World is a challenging platformer that plays with visibility. Most of the environment is shrouded in pitch black, and you must use light sources to reveal the path ahead.\n\nThe game requires careful observation and memorization. Some platforms only exist when they are illuminated, while others disappear when exposed to light. Navigating this paradoxical world is a test of both skill and logic.\n\nWith a hauntingly beautiful soundtrack and a deep sense of isolation, Lost in The Dark World is a journey of perseverance and discovery.",
+    "genres": [
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Alexius",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-06-15",
+    "rating": 7.3,
+    "price": 99000,
+    "tags": [
+      "Difficult",
+      "Light",
+      "Shadows"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-021",
+    "title": "Me & Me",
+    "slug": "me-and-me",
+    "description": "A puzzle game where you must cooperate with past versions of yourself.",
+    "longDescription": "Me & Me is a mind-bending puzzle experience that introduces a time-loop mechanic. To solve each level, you must record your actions and then work alongside your previous self.\n\nCoordination is key. One 'you' might need to hold a switch while the current 'you' crosses a bridge. As the puzzles become more complex, you'll find yourself coordinating with multiple past versions at once.\n\nIt's a clever exploration of cause and effect, wrapped in a clean and stylish aesthetic. How well can you work with yourself?",
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-05-01",
+    "rating": 8.6,
+    "price": 149000,
+    "tags": [
+      "Time Loop",
+      "Logic",
+      "Indie"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Me%20&%20Me.png",
+    "screenshots": []
+  },
+  {
+    "id": "gv-022",
+    "title": "Mistic Theft",
+    "slug": "mistic-theft",
+    "description": "Infiltrate ancient temples as a mystical thief with powers of shadow.",
+    "longDescription": "Mistic Theft is a stealth-action game that puts you in the shoes of a master thief in a world of high fantasy. Use your ability to merge with shadows to infiltrate heavily guarded temples and steal ancient artifacts.\n\nInstead of direct combat, the game emphasizes misdirection and stealth. Use magical trinkets to distract guards and reach areas that would otherwise be impossible. The risk is high, but the rewards are even higher.\n\nWith intricate level design and a rewarding sense of progression, Mistic Theft is a must-play for fans of the stealth genre.",
+    "genres": [
+      "Stealth",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "nadhifaiz",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-04-10",
+    "rating": 8,
+    "price": 99000,
+    "tags": [
+      "Stealth",
+      "Magic",
+      "Loot"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Mistic%20Theft.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Mistic%20Theft%201.jpg",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Mistic%20Theft%202.jpg",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Mistic%20Theft%203.jpg"
+    ],
+    "banner": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/banners/Mistic%20Theft.gif"
+  },
+  {
+    "id": "gv-023",
+    "title": "Neuroblast",
+    "slug": "neuroblast",
+    "description": "A microscopic shooter where you fight tumors inside a human brain.",
+    "longDescription": "Neuroblast: Three Weeks to Live is a side-scrolling shoot 'em up with a unique setting. You control a microscopic medical robot deployed inside a patient's brain. Your mission is to destroy dangerous tumor cells before the clock runs out.\n\nThe game is intense and fast-paced. Dodge white blood cells that mistake you for an intruder while targeting the core of malignant tumors. Collect power-ups to enhance your lasers and shields.\n\nIt's a race against time that combines medical science with classic shooter action. Can you save the patient in time?",
+    "genres": [
+      "Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "kikakucit",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-03-25",
+    "rating": 8.2,
+    "price": 119000,
+    "tags": [
+      "Sci-fi",
+      "Action",
+      "Medical"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Neuroblast.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Neuroblast%201.png"
+    ]
+  },
+  {
+    "id": "gv-024",
+    "title": "Omni Reflect",
+    "slug": "omni-reflect",
+    "description": "Master the art of light reflection to solve ancient solar puzzles.",
+    "longDescription": "Omni Reflect is a cerebral puzzle game that focuses on the physics of light. Use mirrors, prisms, and lens to direct beams of light into ancient solar receptors. The puzzles start simple but quickly evolve into complex networks of light.\n\nThe game's environments are inspired by ancient architecture, creating a sense of history and mystery. Every level you solve reveals more about the civilization that built these solar engines.\n\nWith a meditative soundtrack and satisfying mechanics, Omni Reflect is a journey into the heart of light and shadow.",
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-02-14",
+    "rating": 7.7,
+    "price": 119000,
+    "tags": [
+      "Light",
+      "Physics",
+      "Logic"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Omni%20Reflect.png",
+    "screenshots": []
+  },
+  {
+    "id": "gv-025",
+    "title": "One Fiend",
+    "slug": "one-fiend",
+    "description": "A minimalist boss-rush game where you face a single, evolving nightmare.",
+    "longDescription": "One Fiend strips the action genre down to its core. There are no minions, no levels—only you and the Fiend. Every time you defeat the Fiend, it returns stronger, with new abilities and attack patterns.\n\nThe game is a test of observation and adaptation. You must learn the Fiend's tells and find the perfect time to strike. How many iterations of the Fiend can you overcome before you are defeated?\n\nWith a striking black-and-white art style and a tense, industrial soundtrack, One Fiend is an intense experience for action fans.",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Alexius",
+    "publisher": "Raion Community",
+    "releaseDate": "2023-01-20",
+    "rating": 8,
+    "price": 99000,
+    "tags": [
+      "Difficult",
+      "Boss Rush",
+      "Action"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/One%20Fiend.png",
+    "screenshots": []
+  },
+  {
+    "id": "gv-026",
+    "title": "One Two Three Dango",
+    "slug": "one-two-three-dango",
+    "description": "A delightful cooking and rhythm game about making the perfect dango.",
+    "longDescription": "One Two Three Dango is a celebration of Japanese street food. Players must follow the rhythm of the music to kneed, shape, and cook the perfect dango skewers. The better your timing, the more delicious your dango will be.\n\nThe game features a colorful, hand-drawn art style and a catchy soundtrack that will have you tapping your feet. Unlock new recipes and decorate your food stall as you become the dango master of the city.\n\nIt's a wholesome and satisfying experience that's perfect for a quick break or a long session of rhythmic fun.",
+    "genres": [
+      "Casual",
+      "Music"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "HirumiNi",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-12-15",
+    "rating": 8.8,
+    "price": 119000,
+    "tags": [
+      "Cute",
+      "Food",
+      "Rhythm"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/One%20Two%20Three%20Dango.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/One%20Two%20Three%20Dango%201.jpg",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/One%20Two%20Three%20Dango%202.jpg",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/One%20Two%20Three%20Dango%203.jpg"
+    ]
+  },
+  {
+    "id": "gv-027",
+    "title": "Out of The Comfort Zone",
+    "slug": "out-of-the-comfort-zone",
+    "description": "A narrative exploration of social anxiety and finding your place in the world.",
+    "longDescription": "Out of The Comfort Zone is a deeply personal story about a young person trying to overcome their social anxiety. The game represents these feelings through environmental distortions and abstract challenges.\n\nAs you navigate through everyday situations like going to a party or an interview, you must manage your 'anxiety meter'. Taking small steps outside your comfort zone unlocks new areas and deepens the narrative.\n\nIt's an empathetic look at mental health that uses the medium of gaming to build understanding and connection.",
+    "genres": [
+      "Adventure",
+      "Story Rich"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-11-10",
+    "rating": 9.1,
+    "price": 149000,
+    "tags": [
+      "Emotional",
+      "Anxiety",
+      "Mental Health"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Out%20of%20The%20Comfort%20Zone.png",
+    "screenshots": []
+  },
+  {
+    "id": "gv-028",
+    "title": "OwlCorp",
+    "slug": "owlcorp",
+    "description": "A stealth game where you play as an owl secret agent in a corporate skyscraper.",
+    "longDescription": "In OwlCorp, you are Agent Hoot, the finest operative in the avian underworld. Your mission is to infiltrate the headquarters of a corrupt mega-corporation and steal their secret data.\n\nBeing an owl gives you unique advantages. You can fly silently between ventilation ducts and use your night vision to spot laser grids and guard patterns. But be careful—the building is filled with high-tech sensors and guard drones.\n\nMaster the art of silent takedowns and clever gadgetry to reach the penthouse suite. It's a fun and lighthearted take on the stealth genre with a 'punny' corporate theme.",
+    "genres": [
+      "Stealth",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Alexius",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-10-01",
+    "rating": 7.9,
+    "price": 99000,
+    "tags": [
+      "Stealth",
+      "Funny",
+      "Birds"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/OwlCorp.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/OwlCorp%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/OwlCorp%202.png"
+    ]
+  },
+  {
+    "id": "gv-029",
+    "title": "PADAM!",
+    "slug": "padam",
+    "description": "Solve puzzles in a haunted house to escape a lurking monster.",
+    "longDescription": "PADAM! is a tense horror-puzzle game about a girl named Lana who gets trapped in an old house during a storm. The house is not empty; a monster stalks the hallways, and you must use your flashlight to keep it at bay.\n\nThe puzzles involve finding missing items and interacting with the environment to unlock the way home. Batteries are a limited resource, so you must use your light sparingly. If the light goes out, you're at the monster's mercy.\n\nWith a focus on atmosphere and resource management, PADAM! is a terrifying experience that will test your nerves and your intellect.",
+    "genres": [
+      "Puzzle",
+      "Horror"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "XnonXte",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-09-20",
+    "rating": 8.4,
+    "price": 119000,
+    "tags": [
+      "Horror",
+      "Flashlight",
+      "Tense"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/PADAM.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/PADAM%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/PADAM%202.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/PADAM%203.png"
+    ]
+  },
+  {
+    "id": "gv-030",
+    "title": "Phobos",
+    "slug": "phobos",
+    "description": "Explore a deserted space station in this first-person survival horror.",
+    "longDescription": "Phobos takes place on a research station orbiting Mars that has suddenly gone silent. You are sent to investigate, only to find the crew missing and something inhuman lurking in the shadows.\n\nThe game emphasizes sound and environmental awareness. Every creak of the hull and hiss of steam could be a threat. Scavenge for supplies and find logs to piece together the station's final hours.\n\nPhobos is a hardcore survival horror experience that focuses on the dread of isolation in the cold void of space.",
+    "genres": [
+      "Horror",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "The CentiCoding",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-08-15",
+    "rating": 7.6,
+    "price": 119000,
+    "tags": [
+      "Space",
+      "Survival Horror",
+      "Dark"
+    ],
+    "featured": true,
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Phobos.png",
+    "screenshots": []
+  },
+  {
+    "id": "gv-031",
+    "title": "RAION JAM",
+    "slug": "raion-jam",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/RAION%20JAM.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/RAION%20JAM%201.png"
+    ],
+    "description": "A curated showcase of short games born from Raion Community's game jam events.",
+    "longDescription": "RAION JAM is a collection of experimental short games made by Raion Community members over intense 48-hour game jams. Each entry represents a burst of creativity under pressure.\n\nThe games span every genre imaginable—from surreal walking simulators to intense bullet hells. United only by a shared theme, each title offers a window into the creator's vision.\n\nExplore the collection and discover hidden gems made by the next generation of Indonesian game developers.",
+    "genres": [
+      "Indie",
+      "Casual"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-07-01",
+    "rating": 8,
+    "price": 99000,
+    "tags": [
+      "Game Jam",
+      "Indie",
+      "Collection"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-032",
+    "title": "Reforestation",
+    "slug": "reforestation",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Reforestation.png",
+    "screenshots": [],
+    "description": "Plant trees and restore a dying ecosystem in this meditative strategy game.",
+    "longDescription": "Reforestation is a calm yet strategic game about healing a world devastated by deforestation. You are a forest guardian tasked with replanting native species, managing water sources, and protecting saplings from encroaching threats.\n\nThe game operates on a season cycle. Each season brings new challenges—droughts in summer, frost in winter—requiring you to adapt your planting strategy constantly.\n\nWith beautiful hand-painted visuals and an ambient natural soundscape, Reforestation is a reminder of the importance of protecting our environment.",
+    "genres": [
+      "Strategy",
+      "Simulation"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-06-10",
+    "rating": 8.3,
+    "price": 119000,
+    "tags": [
+      "Relaxing",
+      "Nature",
+      "Strategy"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-033",
+    "title": "Road Rush",
+    "slug": "road-rush",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Road%20Rush.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Road%20Rush%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Road%20Rush%202.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Road%20Rush%203.png"
+    ],
+    "description": "Race across Batthem Island as a delivery driver against the clock.",
+    "longDescription": "Road Rush puts you behind the wheel of a delivery van on Batthem Island, a beautiful archipelago with winding coastal roads and treacherous mountain paths. Every delivery is a race against a tight deadline.\n\nThe game rewards route mastery and skillful driving. Shortcuts exist for those brave enough to find them, but the roads can be unpredictable. Master drift mechanics and boost management to shave precious seconds off your times.\n\nMade in just 2 days for GameJam+ 2025, Road Rush punches well above its weight with satisfying physics and a gorgeous low-poly art style.",
+    "genres": [
+      "Racing",
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Zen",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-05-20",
+    "rating": 8.6,
+    "price": 149000,
+    "tags": [
+      "Racing",
+      "Driving",
+      "Island"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-034",
+    "title": "Save Me Hooman",
+    "slug": "save-me-hooman",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Save%20Me%20Hooman.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Save%20Me%20Hooman%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Save%20Me%20Hooman%202.png"
+    ],
+    "description": "Play as a frantic pet trying to get your human's attention before disaster strikes.",
+    "longDescription": "Save Me Hooman is a comedic time-management game where you control a small animal—a cat, dog, or hamster—desperately trying to warn their oblivious human owner about impending household catastrophes.\n\nEach level presents a new chaos scenario: a boiling pot, a teetering vase, an open window. You must use your limited pet skills—knocking things over, scratching furniture, making noise—to redirect your human before it's too late.\n\nAdorable character animations and escalating absurdity make every failed attempt just as fun as a success. A perfect game for pet lovers everywhere.",
+    "genres": [
+      "Casual",
+      "Comedy"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "Alexius",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-04-15",
+    "rating": 8.5,
+    "price": 99000,
+    "tags": [
+      "Cute",
+      "Funny",
+      "Time Management"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-035",
+    "title": "Shattered Echoes",
+    "slug": "shattered-echoes",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Shattered%20Echoes.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Shattered%20Echoes%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Shattered%20Echoes%202.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Shattered%20Echoes%203.png"
+    ],
+    "description": "Reconstruct a shattered mind by exploring haunting memory fragments.",
+    "longDescription": "Shattered Echoes is a psychological adventure game told through broken memories. You navigate fragmented visions of a person's past, piecing together what led to their current state of dissociation.\n\nThe game world is visually fractured—environments shift and overlap, reflecting the instability of the protagonist's mind. Solving puzzles within each memory shard reveals another piece of the story.\n\nWith a deeply emotional narrative and a striking mixed-media art style, Shattered Echoes is a powerful exploration of trauma, healing, and the stories we tell ourselves.",
+    "genres": [
+      "Adventure",
+      "Horror"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Ghoti Kawi",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-03-10",
+    "rating": 9.3,
+    "price": 149000,
+    "tags": [
+      "Psychological",
+      "Emotional",
+      "Mystery"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-036",
+    "title": "Spirit Investigator",
+    "slug": "spirit-investigator",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Spirit%20Investigator.png",
+    "screenshots": [],
+    "description": "Solve paranormal cases in Jakarta using ghost-detecting gadgets.",
+    "longDescription": "Spirit Investigator puts you in the role of a freelance paranormal detective operating in a fictional version of Jakarta. Armed with an EMF reader, a spirit camera, and a thermal scanner, you must document and neutralize supernatural disturbances.\n\nEach case presents a unique haunting with its own history and rules. Talk to witnesses, gather evidence, and determine the type of spirit before attempting to resolve the haunting using the correct method.\n\nDrawing heavily from Indonesian folklore and urban legends, Spirit Investigator delivers scares that feel culturally authentic and uniquely unsettling.",
+    "genres": [
+      "Puzzle",
+      "Horror"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "XnonXte",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-02-01",
+    "rating": 8.7,
+    "price": 149000,
+    "tags": [
+      "Ghost",
+      "Indonesia",
+      "Investigation"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-037",
+    "title": "Stoneman",
+    "slug": "stoneman",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Stoneman.png",
+    "screenshots": [],
+    "description": "Survive the cursed Fornsword Mansion by finding 5 Crimson Orbs before Stoneman catches you.",
+    "longDescription": "Stoneman is a first-person survival horror game set in the sprawling, cursed halls of Fornsword Mansion. You play as George, a treasure hunter who has become trapped inside after triggering an ancient curse.\n\nThe Stoneman—a massive, slow but relentless creature of living rock—patrols the mansion. You must find 5 Crimson Orbs hidden throughout its many rooms to lift the curse, all while avoiding the Stoneman's crushing grasp.\n\nWith immersive sound design and genuinely terrifying chase sequences, Stoneman delivers classic survival horror tension in a beautifully rendered environment.",
+    "genres": [
+      "Survival",
+      "Horror"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "nadhifaiz",
+    "publisher": "Raion Community",
+    "releaseDate": "2022-01-15",
+    "rating": 8.1,
+    "price": 99000,
+    "tags": [
+      "Survival Horror",
+      "Mansion",
+      "Chase"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-038",
+    "title": "Super Janitor Bros",
+    "slug": "super-janitor-bros",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Super%20Janitor%20Bros.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Super%20Janitor%20Bros%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Super%20Janitor%20Bros%202.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Super%20Janitor%20Bros%203.png"
+    ],
+    "description": "Two janitors must clean up a monster-infested building before the boss arrives.",
+    "longDescription": "Super Janitor Bros is a co-op action game about two custodial heroes—Pak Budi and Pak Santoso—who arrive at work to find the office building overrun by creatures of unknown origin. The boss is due in an hour. Time to clean up.\n\nThe gameplay blends frantic combat with actual cleaning mechanics. You must defeat monsters AND mop up the mess they leave behind, all within the time limit. Co-op play allows one player to fight while the other cleans.\n\nWith charming Indonesian characters and a hilarious premise, Super Janitor Bros is endlessly replayable and best enjoyed with a friend.",
+    "genres": [
+      "Action",
+      "Casual"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2021-12-05",
+    "rating": 7.8,
+    "price": 119000,
+    "tags": [
+      "Co-op",
+      "Funny",
+      "Action"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-039",
+    "title": "The Eggventure",
+    "slug": "the-eggventure",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/The%20Eggventure.png",
+    "screenshots": [],
+    "description": "Control the environment—not the character—to guide a fragile egg to safety.",
+    "longDescription": "The Eggventure flips the platformer genre upside down. You don't control the egg; you control everything else. Move platforms, tilt the world, redirect fans and gusts of wind—all to guide the protagonist egg safely to the exit.\n\nThe egg rolls, bounces, and wobbles with realistic physics. This indirect control creates a delightful tension as you watch your careful setup either succeed beautifully or fail hilariously.\n\nAs levels progress, the tools at your disposal grow more complex, leading to satisfying Rube Goldberg-style solutions. A truly unique puzzle experience.",
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Muhammad Haikal Fisabilillah",
+    "publisher": "Raion Community",
+    "releaseDate": "2021-11-01",
+    "rating": 8.4,
+    "price": 149000,
+    "tags": [
+      "Physics",
+      "Puzzle",
+      "Indirect Control"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-040",
+    "title": "The Fragility Within",
+    "slug": "the-fragility-within",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/The%20Fragility%20Within.png",
+    "screenshots": [],
+    "description": "Navigate a world of stone as a porcelain doll who shatters on a single wrong step.",
+    "longDescription": "The Fragility Within is a brutally precise platformer with a poetic soul. You play as a delicate porcelain doll navigating a world of jagged stone and sharp edges. One mistake and you shatter, returning to the beginning.\n\nBut the game is not cruel—it is beautiful. Each death is accompanied by a haunting musical note and a stunning visual of porcelain fragments catching the light. The world itself is a work of art, encouraging exploration despite the risk.\n\nUnderneath the challenge lies a quiet meditation on vulnerability, resilience, and the beauty in fragile things.",
+    "genres": [
+      "Platformer",
+      "Art"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Ghoti Kawi",
+    "publisher": "Raion Community",
+    "releaseDate": "2021-10-15",
+    "rating": 9.4,
+    "price": 119000,
+    "tags": [
+      "Difficult",
+      "Beautiful",
+      "Poetic"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-041",
+    "title": "The Incursion",
+    "slug": "the-incursion",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/The%20Incursion.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/The%20Incursion%202.png"
+    ],
+    "description": "Command the last line of defense against a full-scale alien ground invasion.",
+    "longDescription": "The Incursion is a real-time strategy game where you control a small, elite squad defending the last human settlement on Earth. The aliens have landed and their numbers are overwhelming—success depends entirely on tactics, not firepower.\n\nPosition your units carefully, exploit terrain advantages, and use limited resources wisely. Every soldier lost is a permanent blow to your defensive capability.\n\nWith a grim, grounded tone and deeply satisfying tactical gameplay, The Incursion is a worthy challenge for strategy veterans.",
+    "genres": [
+      "Strategy",
+      "Sci-Fi"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Zen",
+    "publisher": "Raion Community",
+    "releaseDate": "2021-09-01",
+    "rating": 8.2,
+    "price": 119000,
+    "tags": [
+      "RTS",
+      "Aliens",
+      "Tactical"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-042",
+    "title": "Trials of Divine",
+    "slug": "trials-of-divine",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Trials%20of%20Divine.png",
+    "screenshots": [],
+    "description": "Prove your worth to the gods through an epic series of divine boss battles.",
+    "longDescription": "Trials of Divine is a boss-rush action-RPG set in a world where mortals can ascend to godhood—if they survive the trials. Each trial is a one-on-one battle against a powerful divine being, each with unique abilities and multiple phases.\n\nBetween battles, spend time at the Sacred Enclave to upgrade your abilities, forge divine weapons, and learn the lore of the gods you face. Knowledge of a god's mythology is as important as combat skill.\n\nWith fluid, weighty combat mechanics and breathtaking boss designs, Trials of Divine delivers an unforgettable action-RPG experience.",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "AdityaAhmadXD",
+    "publisher": "Raion Community",
+    "releaseDate": "2021-07-20",
+    "rating": 9,
+    "price": 149000,
+    "tags": [
+      "Boss Rush",
+      "Mythology",
+      "Epic"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-043",
+    "title": "Vegetal Fort",
+    "slug": "vegetal-fort",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Vegetal%20Fort.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Vegetal%20Fort%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Vegetal%20Fort%202.png"
+    ],
+    "description": "A pixel art top-down shooter where a farmer defends crops from waves of pests.",
+    "longDescription": "Vegetal Fort combines the intensity of a top-down shooter with tower defense strategy. You are a farmer whose crops are under attack from an ever-growing army of pests, and you have both your trusty shotgun and an arsenal of special plants to defend them.\n\nWaves of enemies grow stronger and more numerous over time. Spending XP on upgrades between waves is critical—upgrading your plants or your own abilities can mean the difference between a bumper harvest and total infestation.\n\nThe charming pixel art style belies the depth of the gameplay. This is Vampire Survivors meets Plants vs Zombies, Indonesian edition.",
+    "genres": [
+      "Shooter",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "Raion Community",
+    "publisher": "Raion Community",
+    "releaseDate": "2021-06-10",
+    "rating": 7.9,
+    "price": 99000,
+    "tags": [
+      "Pixel Art",
+      "Tower Defense",
+      "Wave Survival"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-044",
+    "title": "Winter Wonderland",
+    "slug": "winter-wonderland",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Winter%20Wonderland.png",
+    "screenshots": [],
+    "description": "Explore a magical snowy forest, build snowmen, and uncover hidden winter secrets.",
+    "longDescription": "Winter Wonderland is a cozy open-world exploration game set in an enchanted winter forest. Snowflakes drift gently, foxes dart between snow-covered pines, and every corner hides a small mystery waiting to be discovered.\n\nThere is no combat and no fail state. Simply explore, collect rare snowflakes, build increasingly elaborate snowmen, and help the forest creatures prepare for the long winter. The world responds to your actions in subtle, delightful ways.\n\nPerfect for winding down after a long day, Winter Wonderland is a warm hug in game form.",
+    "genres": [
+      "Casual",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Web"
+    ],
+    "developer": "Alexius",
+    "publisher": "Raion Community",
+    "releaseDate": "2021-05-01",
+    "rating": 8.8,
+    "price": 119000,
+    "tags": [
+      "Cozy",
+      "Relaxing",
+      "Exploration"
+    ],
+    "featured": true
+  },
+  {
+    "id": "gv-045",
+    "title": "Yellow Riding Hood",
+    "slug": "yellow-riding-hood",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Yellow%20Riding%20Hood.png",
+    "screenshots": [
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Yellow%20Riding%20Hood%201.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Yellow%20Riding%20Hood%202.png",
+      "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Yellow%20Riding%20Hood%203.png"
+    ],
+    "description": "A dark fairy tale retelling where Red Riding Hood wears yellow and the wolf is the least of your worries.",
+    "longDescription": "Yellow Riding Hood is a stealth-adventure game that reimagines the classic fairy tale through a darker, more nuanced lens. Our protagonist wears yellow—a sign of caution in a world where nothing is what it seems.\n\nNavigate a dense, hand-painted forest using stealth and your wits. The 'wolf' is actually the least dangerous thing in these woods. Corrupt woodsmen, enchanted traps, and the forest itself pose equal threats.\n\nWith branching paths and multiple endings determined by your choices, Yellow Riding Hood is a fairy tale you will want to experience more than once.",
+    "genres": [
+      "Stealth",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Windows"
+    ],
+    "developer": "HirumiNi",
+    "publisher": "Raion Community",
+    "releaseDate": "2021-03-20",
+    "rating": 8.9,
+    "price": 149000,
+    "tags": [
+      "Fairy Tale",
+      "Stealth",
+      "Dark"
+    ],
+    "featured": true
+  }
+]

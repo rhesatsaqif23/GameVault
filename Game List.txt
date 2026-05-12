@@ -1,0 +1,1405 @@
+List title game dan coverImagenya:
+After The Dark.png
+Astrophobia.png
+Block X Block.png
+Borderline.png
+Carrots.png
+Compli-Cat.png
+Devilish Dish.png
+Doge vs Car.jpg
+Drive.png
+Fearscape.png
+FurryOcious Showdown.png
+GANGBREAKER.png
+HOME.png
+Hover Clock.png
+Impale.png
+Jumper.png
+Liminal Rift.png
+Linked lt.png
+Loot & Lutes.png
+Lost in The Dark World.png
+Me & Me.png
+Mistic Theft.png
+Neuroblast.png
+Omni Reflect.png
+One Fiend.png
+One Two Three Dango.png
+Out of The Comfort Zone.png
+OwlCorp.png
+PADAM.png
+Phobos.png
+RAION JAM.png
+Reforestation.png
+Road Rush.png
+Save Me Hooman.png
+Shattered Echoes.png
+Spirit Investigator.png
+Stoneman.png
+Super Janitor Bros.png
+The Eggventure.png
+The Fragility Within.png
+The Incursion.png
+Trials of Divine.png
+Vegetal Fort.png
+Winter Wonderland.png
+Yellow Riding Hood.png
+
+Contoh Link:
+https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/After%20The%20Dark.png
+
+List Screenshots tersedia:
+Astrophobia l.png
+Block X Block l.jpeg
+Block X Block 2.jpeg
+Carrots l.png
+Carrots 2.png
+Carrots 3.png
+Devilish Dish l.png
+Devilish Dish 2.png
+Devilish Dish 3.png
+Devilish Dish 4.png
+Doge vs Car l.png
+Doge vs Car 2.png
+Doge vs Car 3.png
+Doge vs Car 4.png
+FurryOcious Showdown l.png
+FurryOcious Showdown 2.png
+FurryOcious Showdown 3.png
+FurryOcious Showdown 4.png
+HOME l.png
+Linked It l.png
+Linked It 2.jpeg
+Linked It 3.jpeg
+Linked It 4.jpeg
+Loot & Lutes l.png
+Lost in The Dark World l.png
+Lost in The Dark World 2.png
+Mistic Theft l.jpg
+Mistic Theft 2.jpg
+Mistic Theft 3.jpg
+Neuroblast l.png
+One Two Three Dango l.jpg
+One Two Three Dango 2.jpg
+One Two Three Dango 3.jpg
+OwlCorp l.png
+OwlCorp 2.png
+PADAM l.png
+PADAM 2.png
+PADAM 3.png
+RAION JAM l.png
+Road Rush l.png
+Road Rush 2.png
+Road Rush 3.png
+Road Rush 4.png
+Save Me Hooman l.png
+Save Me Hooman 2.png
+Shattered Echoes l.png
+Shattered Echoes 2.png
+Shattered Echoes 3.png
+Shattered Echoes 4.png
+Super Janitor Bros l.png
+Super Janitor Bros 2.png
+Super Janitor Bros 3.png
+Super Janitor Bros 4.png
+The Incursion 2.png
+Vegetal Fort l.png
+Vegetal Fort 2.png
+Yellow Riding Hood l.png
+Yellow Riding Hood 2.png
+Yellow Riding Hood 3.png
+
+Contoh Link: https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Astrophobia%201.png
+
+List gif bergerak untuk banner:
+Block X Block.gif
+Impale.gif
+Linked lt.gif
+Mistic Theft.gif
+
+Contoh Link: https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/banners/Block%20X%20Block.gif
+
+List game (melengkapi generate-product.ts):
+
+Furry-Ocious Showdown
+A downloadable Amazing Game for Windows
+
+"Furry-Ocious Showdown is a fusion of tower defense strategy and action-shooter game set in a modern warfare setting."
+The story starts as General Bulldog launches a special military operation to destroy Meow-Meow Bridge, which stands as the lifeline of the Cat City. Whiskers, a highly trained feline special forces member, and his smart drone companion, Dave, are tasked to protect Meow-Meow Bridge from the invading enemies, by strategically building turrets and thwarting their destructive plans in a vital battle for their city's survival.
+
+"We're driven by a deep purpose - to highlight the vital role of bridges in connecting communities, cultures, and economies."
+<<<Features>>>
+Unique Attack Combinations:  Unleash diverse, player-created attack combinations using bolt, gear, and gunpowder components and match them, actively involving players in battle strategy for a dynamic and engaging gaming experience.
+Customizable Towers: Players can strategically place and upgrade diverse towers, each with unique abilities, enhancing adaptability and depth in real-time defense for dynamic gameplay.
+Varied Enemies and Epic Boss Fight:  Encounter unique enemy types and challenging bosses with distinct abilities, adding excitement and thrill to the gameplay for an adrenaline-pumping adventure.
+Captivating Mini-Stories: Experience captivating mini-stories that reveal the rich backstory of the game, providing deeper insights into the world, Whisker's mission, and the bridge's significance. These narratives enhance player engagement and create a more immersive experience.
+Distinct Cartoon Art Style:  Furry-Ocious Showdown's unique art style combines charming cartoon visuals with a vibrant color palette, enhancing its appeal and creating an engaging, visually distinctive game world.
+
+Download Furry-Ocious Showdown now, strategize, and unleash unique attacks to become the hero Cat City deserves!
+
+More information
+Download
+FurryOcious.rar
+109 MB
+FurryOcious_Night_Ver[Beta].rar
+117 MB
+Install instructions
+Download and unzip the .rar
+Search Fury.exe
+Click and Play
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+
+itch.io·View all by Alexius·Report·Embed
+Games › Strategy › Free
+
+
+---
+
+
+Borderline
+A downloadable game for Windows
+
+Borderline was made to fulfil the criteria of the theme “Mindblown” game. The team members agreed that to meet these criteria, a game with a plot twist would be a great kind of game. To make it like that, designed with a bright and playful vibe and bright colors, so players could enjoy the collecting and fighting in peace without seeing the twist coming.
+
+More information
+Download
+Beta Build v1.0.1.rar
+51 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by HirumiNi·Report·Embed
+Games › Adventure › Free
+
+
+---
+
+
+Loot & Lutes
+A downloadable game
+
+"Destroy the tyranny, blast your foes with music!"
+Experience a unique twist on the Hack & Slash genre in Loot & Lutes, where your attacks harmonize directly with the game's soundtrack! Face crucial choices on every attempt, guaranteeing a completely fresh and unpredictable experience every time you play.
+
+
+One day, the Goblin invaders issued a shocking decree. They demanded that every bard in their territory pay a heavy tribute just to play popular tunes in taverns, inns, or even guild halls! Arvo is at a loss. He barely earns enough coin as a Bard to survive—how is he supposed to afford the Goblins' outrageous demands?
+
+
+CONTROLS
+WASD:  Walk
+SPACE: Dash
+LMB: Attack
+
+
+
+
+Credits:
+Ahmad Farrel (Game Designer)
+
+Adrian Semeion Immanuel (Game Designer)
+
+Sabriel Rafif Gunawan (Game Artist)
+
+Rayhan Naufal Sefriko (Game Engineer)
+
+Michael Juanio Patrick (Game Engineer)
+
+More information
+Download
+LULUTS.zip
+42 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by Dinnoo·Report·Embed
+Games › Free
+
+
+---
+
+
+PADAM!
+A downloadable game
+
+About PADAM!
+A horror puzzle game about Lana, a girl who loves hiking. After taking shelter in an old house during a storm, she becomes trapped inside with a monster and must solve puzzles to escape.
+
+How to Survive!
+Point the flashlight towards the monster
+Collect batteries as you go
+Solve tasks by finding torn down date, screwdriver, or fuel tank
+Controls
+Movements	Interact	Point the flashlight
+W, A, S, D	E	Mouse
+Credits
+Game Designers
+
+Mohammad Abdul Quddus Salam
+Amalia Siti Khansa
+Game Artists
+
+Rajwa Sultan Faezhar
+Muhammad Alif Nur Apriansyah
+Game Enginners
+
+Abi Rayhan Caesaro
+Johannes Sebastian Tampubolon
+
+More information
+Download
+PADAM! V.0.0.1.zip
+47 MB
+Comments
+Log in with itch.io to leave a comment.
+
+XnonXte
+59 days ago
+W team
+
+Reply
+
+
+itch.io·View all by XnonXte·Report·Embed
+Games › Puzzle › Free
+
+
+---
+
+
+Astrophobia
+A downloadable game for Windows
+
+Astrophobia is a 2D roguelike game where you play as The Astronaut who is stranded in a deserted planet. Fight enemy robots with different kind of sentries and try to survive as long as possible.
+
+More information
+Download
+Astrophobia.zip
+49 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by The CentiCoding·Report·Embed
+Games › Free
+A downloadable game for Windows
+
+Astrophobia is a 2D roguelike game where you play as The Astronaut who is stranded in a deserted planet. Fight enemy robots with different kind of sentries and try to survive as long as possible.
+
+More information
+Download
+Astrophobia.zip
+49 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by The CentiCoding·Report·Embed
+Games › Free
+
+
+---
+
+
+Stoneman
+A downloadable game for Windows
+
+A Survival Horror game when you have to survive from Stoneman inside the Fornsword's Mansion that held a deadly curse. Playing as George, we have to find 5 Crimson Orb in order to lift the curse and get out from the mansion.
+
+More information
+Download
+Stoneman v.1.zip
+114 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by nadhifaiz·Report·Embed
+Games › Survival › Free
+
+
+---
+
+
+Neuroblast: Three Weeks to Live
+A downloadable game for Windows
+
+Name your own price
+Neuroblast: 3 Weeks to Live is a side-scrolling shoot ’em up where players control a microscopic robot deployed inside a patient’s brain to destroy dangerous tumor cells. With limited time, players must shoot and dodge various types of tumors before the condition worsens. Destroy the tumor core, collect power-ups, and save the patient before it’s too late.
+
+More information
+Download
+Name your own price
+Click download now to get access to the following files:
+
+NeuroBlast.zip
+63 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by kikakucit·Report·Embed
+Games › Shooter › Free
+
+
+---
+
+
+HOME
+A downloadable game
+
+Astra adalah sebuah makhluk hasil pemrograman yang dibuat untuk menjadi hiburan bagi manusia. Namun, yang tidak diketahui oleh pemain adalah bagaimana Astra “diproses” apabila pemain menyebabkan Astra mati. Karena merasakan sakit yang luar biasa, Kematian yang terlalu sering dapat membangkitkan kesadaran diri Astra. Astra akan menolak inputan pemain dan mulai marah saat dimainkan. Astra kemudian akan bertanya kepada pemain apakah pemain mau membantu Astra. Saat pemain setuju, Astra akan membawa pemain ke sebuah “hidden level” dan mengajari pemain untuk menggunakan super power yang dikunci oleh developer. Saat hidden level sudah diselesaikan, Level akan diselesaikan dengan lebih mudah. Namun, saat Astra mencapai rumahnya, Astra akan menemukan bahwa rumah yang selama ini ia rindukan hanya sebuah papan kayu. Astra kemudian akan bertanya kepada pemain untuk membiarkan ia tinggal di komputernya.
+
+More information
+Download
+HOME.zip
+37 MB
+HOME 1.3.zip
+37 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by Ghoti Kawi·Report·Embed
+Games › Free
+
+
+---
+
+
+Doge vs Car : High Noon
+A downloadable game for Windows
+
+Doge vs Car : High Noon
+ABOUT THE GAME
+Get ready for High Noon, a goofy wild-west themed 2-player quickdraw game that will test your reflexes and timing! This game is all about playing with your friends and having a laugh with funny memes and a silly aesthetic.
+
+KEY FEATURES:
+Player vs Player Local Multiplayer: A fun and competitive offline multiplayer experience.
+Fast-Paced Quick-Draw Mechanic: The core gameplay tests your speed and accuracy. When the bell rings, the duel begins!.
+Element of Surprise: Respond quickly and precisely to randomized key prompts (randomized key prompts).
+Wild West Narrative: Resolve the hot conflict between the bandit cat Car and the eccentric entrepreneur dog Doge for control of the land.
+Goofy-Ahh Vibe: The game is categorized as a comedy with a lighthearted cartoonish UI and a relaxed, funny wild-west musical atmosphere.
+"Rules for Fun": Players must put their hands near their "holster" (waist) before the bell rings, adding an authentic Wild West challenge
+GENRE: 
+Player vs Player Comedy
+
+PLATFORM: 
+Available on PC only.
+
+TEAM MEMBERS:
+Angga Prima R (Game Designer)
+
+Dafid Rosydan H (Game Designer)
+
+Erza Hanif Pramudita H (Game Programmer)
+
+Akhmad Syafiul Anam (Game Programmer)
+
+Nauval Rusdi A (Game Artist)
+
+More information
+Download
+Doge vs Car v1.0.zip
+155 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by erzahanif11·Report·Embed
+Games › Action › Free
+
+
+---
+
+
+Linked It
+A downloadable game for Windows
+
+
+Developed by Unemployed for RAION Hackjam 2025.
+Our Amazing Members :
+Aditya Ahmad Riza Ramadhan as Team Leader and Game Designer 
+Herdy Madani as Game Programmer 
+Muhammad Raditya Arsyad as Game Programmer
+Laurensia Natania Nintaria H. as Game Artist
+
+SUMMARY
+Linked it! Connect as many matching objects as possible before the time runs out and climb to the highest stage you can! Let's see how long can you survive.
+
+So here we are... The interviewee will arrive soon enough... Oh! Look! They arrived! Let's see what they had in mind... 
+
+
+
+"I hope I get the job..."
+- Thumb (He seems nervous... Good luck)
+
+"MAN... I love getting a job!!!"
+- Anime Girl (She forgot her toast)
+
+
+
+
+
+
+"Glub... Glub"
+- A Fish...A FISH???
+
+
+"Yeah I... *COUGH COUGH* I *WHEEZE COUGH COUGH* need-"
+- Grandpa (We just called the ambulance for him)
+
+
+Uh... Anyways... How To Play?
+
+Click, hold, and drag to connect similar objects.
+Create longer chains for bigger combos and bonus points.
+Beat the target score before the timer ends to level up!
+
+And thats it! Have fun and be the one who reached the highest stage ever!!
+
+
+
+
+More information
+Download
+Linked-ItV.2.zip
+40 MB
+Linked-It.zip
+41 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+
+itch.io·View all by AdityaAhmadXD·Report·Embed
+Games › Puzzle › Free
+
+
+---
+
+
+Devilish Dish
+A downloadable game for Windows
+
+
+
+
+
+TENTANG PERMAINAN
+
+Dalam game Devilish Dish, kamu sebagai player mengelola restoran kecil milik dukun, di mana setiap ronde bisa selalu menjadi yang terakhir dalam hidupmu. Sajikanlah masakan untuk para iblis, atur kekuatan dapurmu, dan bertahan melalui ronde-ronde yang ada sambil mengumpulkan koin untuk membayar sewa serta menebus utangmu kepada sang dukun.
+
+Game ini memiliki elemen simulasi memasak, di mana tiap ronde menghadirkan resep baru, kartu baru, pelanggan dengan berbagai variasi, serta kekacauan dari semua elemen yang ada. Kumpulkan koin dan kelola dapurmu sebelum tuan dukun datang menagih utang.
+
+
+
+
+
+FITUR UTAMA DALAM GAME
+
+Progres Permainan: Bertahan melalui 7 ronde dengan sistem ekonomi dinamis, di mana harga bahan terus naik dan biaya sewa semakin mahal di tiap ronde.
+Sistem Memasak dan Melayani Pelanggan: Siapkan bahan, masak, dan layani pelanggan sebelum kesabaran mereka habis.
+Sistem Sewa: Kumpulkan uang dan bayar sewa di setiap akhir ronde. Jika gagal, permainan berakhir dan dukun menjual jiwamu ke iblis.
+Kartu Buff dan Debuff: Setiap ronde memiliki kartu dengan efek bervariasi yang dapat membantu atau justru menghambat progres dapurmu.
+Sistem XP dan Level:Dapatkan XP dari aktivitas seperti memasak dan melayani pelanggan. Kumpulkan XP untuk naik level dan mendapatkan kemampuan kartu baru untuk membantumu melewati ronde.
+Peralatan dapur: Gunakan alat dapur untuk memasak. Hati-hati, jika makanan dibiarkan terlalu lama, sesuatu bisa terjadi!!
+Restoran Dunia Iblis: Jalankan restoran kecil di dunia iblis dan berjuang untuk membayar utang kepada sang dukun, atau jiwamu sendiri yang menjadi hidangan para iblis.
+
+
+CONTROL 
+
+ 
+
+THEME
+
+Devilish Dish dikembangkan berdasarkan inspirasi dari berbagai permainan memasak, terutama Goblin Sushi dan Selera Nusantara. Bedanya, permainan ini membawanya ke arah yang lebih gelap dengan suasana dunia iblis bercorak khas Indonesia dengan berbagai sistem baru dan cerita.
+
+
+ 
+CORE GAMEPLAY 
+
+Player akan mengelola restoran milik dukun di dunia iblis selama tujuh ronde. Tugas utamanya adalah memasak, melayani pelanggan, dan memenuhi target pendapatan untuk membayar sewa. Kegagalan berakibat pada penjualan jiwa pemain dan berakhir game over. 
+
+Permainan ini juga dilengkapi sistem XP dinamis untuk peningkatan dapur serta sistem kartu buff dan debuff yang mengubah dinamika permainan antar ronde. Tingkat kesulitan terus meningkat melalui kenaikan harga bahan baku dan target pendapatan yang lebih tinggi.
+
+
+
+TEAM MEMBERS
+
+Angga Prima Ramadhan - Game Designer
+Rafi Al Musa - Game Designer
+Rafael Deven Ang - Game Programmer
+Erza Hanif Pramudita Hanggara - Game Programmer
+Akhmad Syafiul - Game Programmer
+Nauval Rusdi Aslam - Game Artist
+Riesya Nadiha Devvy - Game Artist
+Muhammad Idham Ma'arif - Game Artist
+More information
+Download
+DEVILISH DISH.zip
+124 MB
+Comments
+Log in with itch.io to leave a comment.
+
+KATUPAT_Ohm
+178 days ago
+(1 edit)
+Karakternya unik unik wkwkwkw, btw disini bisa nyantet gaa?
+
+Reply
+AcheronSkavos
+179 days ago
+LUCU BANGET KARAKTERNYAA T_____TT
+
+Reply
+Mangga123
+179 days ago
+OMG MY ISTRIIIIII
+
+Reply
+AcheronSkavos
+179 days ago
+KARBITTT, ITU TUH MY ISTRI GW JIRR
+
+Reply
+Deleted post
+179 days ago
+Deleted 119 days ago
+Reply
+
+
+itch.io·View all by Shikinami Siren·Report·Embed
+Games › Simulation › Free
+
+
+---
+
+
+Impale
+A downloadable game for Windows
+
+
+NEWEST VERSION AVAILABLE FOR DOWNLOAD!
+
+Impale is a precision-based action game set deep within a mysterious cave.
+You play as a lone wanderer armed only with a spear, searching for your lost family swallowed by the depths while facing the unknown lurking in the shadows. Every chance counts. Miss, and it could be your last.
+
+
+
+"Survive the cave’s deadly threats, Stay sharp, and remember… you’re not alone in that cave."
+
+
+Fight monster hiding deep inside the cave.
+
+Use your spear to hit enemy weak spots and deal more damage.
+
+Aim carefully and stay alert , every shot counts.
+
+Explore the cave and discover what waits in the dark
+
+Game made for Gimersia 2025 with the theme "ATM" – Amati, Tiru, Modifikasi 
+
+A game inspired by the mobile game Big Hunter, reimagining its precise spear throwing mechanic in a 3D world, this 3D twist brings a fresh experience while keeping the core mechanic, becoming an accurate spear thrower. Set deep within a dark cave, the game challenges players to master focus, timing, and accuracy to survive deadly encounters and strike enemies at their weak points.
+
+
+
+
+Game by Team 144 - Katupat - Universitas Brawijaya   
+
+Rayyif Rasya - Sound Designer, Game Designer
+Ananta Boemi Adji - Project Manager, Game Designer
+Muhammad Abyan Syauqi - Lead Game Programmer 
+Rizqy Jauhary Atsaany - Game Programmer 
+Exel Boy Alfanso - Game Programmer 
+Hadi Kresnadi - Game Programmer 
+Sandhika Rizqi Ramadhan- Lead Game Artist 
+Jeshica Tanuwijaya - Game Artist 
+Ilmam Hashfi Firjatullah - Game Artist 
+Ridho Denindra Shobirin Cholil Soenarno - Game Artist
+NEWEST VERSION AVAILABLE FOR DOWNLOAD!
+
+What's New:  
+
+Redesigned boss model  
+Improved boss movement  
+Enhanced visual effects  
+Fixed camera and player stuttering issues  
+Reduced bloom and motion blur effects  
+Expanded tutorial stage  
+Added second phase of the boss 
+Updated fighting arena, allowing more freedom of movement  
+Updated user interface  
+Various additional improvements and optimizations 
+
+
+clips.id/Impale_Feedback
+
+Your feedback is invaluable and will help us further improve the game!
+
+More information
+Download
+Impale v1.2.3
+138 MB
+Comments
+Log in with itch.io to leave a comment.
+
+ghazthiskc
+149 days ago
+keren
+
+Reply
+Shikinami Siren
+177 days ago
+(+1)
+Ide gamenya bagus, serasa main farcry primal.
+
+Reply
+
+
+itch.io·View all by Zen·Report·Embed
+Games › Action › Free
+
+
+---
+
+
+Road Rush
+A downloadable game
+
+
+
+
+In Road Rush, you take on the role of a delivery driver tasked with transporting packages across Batthem Island as quickly and efficiently as possible.
+
+Every delivery is a race against time. There are no enemies — only the challenge of choosing the right route, maintaining speed, and beating the countdown.
+
+This game was developed in just 2 days as part of GameJam+ 2025, embracing the themes “Small Scope, Big Fun” and “The Next Version Is Yours.”
+
+  
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Game Designer	Game Programmer	Game Artist
+1. Ananta Boemi Adji
+2. Rayyif Rasya	1. Muhammad Abyan Syauqi
+2. Hadi Kresnadi
+3. Exel Boy Alfanso
+4. Rizqy Jauhary Atsaany	1. Sandhika Rizqi Ramadhan
+2. Jeshica Tanuwijaya
+3. Ilmam Hashfi Firjatullah
+4. Ridho Denindra Shobirin Cholil Soenarno
+
+
+Category	Asset	Link
+Code Module	DOTween	Unity Asset Store
+Code Module	Pools	Unity Asset Store
+Code Module	Arcade Vehicle Physics	Unity Asset Store
+Code Module	Checkpoint Based Car AI	Unity Asset Store
+Code Module	BroAudio	Unity Asset Store
+Visual Asset	Stylized Water Shader	Unity Asset Store
+Visual Asset	OmniShade (Mobile Shader)	Unity Asset Store
+Visual Asset	Fantasy Skybox	Unity Asset Store
+Audio Asset	Background Music	Pixabay Link
+Audio Asset	Engine Simulator (AngeTheGreat)	Engine Sim Website
+A game made for GameJam+ 2025
+by Team Katupat from Indonesia 🇮🇩
+
+More information
+Download
+roadrush.zip
+45 MB
+Road Rush -Incubation Ver
+88 MB
+Install instructions
+-
+
+Comments
+Log in with itch.io to leave a comment.
+
+rickigut
+167 days ago
+(+3)
+Gokss.... Controlnya asik banget
+
+Reply
+alfredorm
+167 days ago
+(+3)
+bangga dan kagum banget dengan output game ini ! :3
+
+Reply
+jstnvs
+167 days ago
+(+3)
+keren mekaniknya
+
+Reply
+Merh
+168 days ago
+(+3)
+Bagus banget
+
+Reply
+
+
+itch.io·View all by Zen·Report·Embed
+Games › Racing › Free
+
+
+---
+
+
+Block X Block
+A downloadable game for Windows
+
+ABOUT THE GAME
+EVER WONDERED WHAT HAPPENS INSIDE A BROKEN ARCADE MACHINE?
+In Block x Block, you don't stack the blocks—you dodge them.
+
+You’re just a stray cat who picked the wrong place to cover. One accidental button press later, and zap! You’re sucked into "Tetris Hell"—a glitchy, crumbling digital world where physics is just a suggestion and the floor is literally neon lava.
+
+Your mission? Survive. The system is broken, viruses are everywhere, and the only way out is to keep survive before you get squished or toasted.
+
+This isn't a puzzle. It's parkour with consequences.
+
+
+
+
+
+GAMEPLAY
+Dodge, Dash, Run—Do Everything to Survive!
+
+
+
+CONTROL:
+MOVEMENT
+[ W ] : Look Up / Climb
+[ A ] : Move Left
+[ D ] : Move Right
+ACTIONS
+[ SPACE ] : Jump
+Press again in mid-air to Double Jump!
+[ LEFT SHIFT ] : Sprint / Dash
+Use this to quickly dodge falling blocks.
+COMBAT & TOOLS
+[ LEFT CLICK ] : Claw Attack
+Destroy Minion Viruses blocking your path.
+[ RIGHT CLICK ] : Grappling Hook
+Launch a hook to latch onto blocks and swing across gaps or pull yourself up.
+
+
+TEAM MEMBERS
+Angga Prima Ramadhan
+Rafi Al Musa
+Archie Satria Pamungkas
+Rafael Deven Ang
+Erza Hanif
+Riesya Nadiha Devvy
+Nauval
+
+More information
+Download
+BlockXBlock_PC_v1.2.zip
+54 MB
+Comments
+Log in with itch.io to leave a comment.
+
+Zen
+165 days ago
+Gamenya keren aku dapet score 1000
+
+Reply
+Deleted post
+165 days ago
+Deleted 118 days ago
+Reply
+
+itch.io·View all by Shikinami Siren·Report·Embed
+Games › Platformer › Free
+
+
+---
+
+
+On a midnight ride in the woods, your truck blew up. You're unscathed, however, unexplainable creatures emerging from the ground seems to be interested in you (or maybe your wrench idk). Will you survive the night from the overwhelming creatures of the dark sky below the moonlight?
+
+More information
+Download
+Drive v1.1.2.zip
+80 MB
+Comments
+Log in with itch.io to leave a comment.
+
+Smorkity
+284 days ago
+bruh
+
+Reply
+
+itch.io·View all by Doodez·Report·Embed
+Games › Shooter › Free
+
+
+---
+
+
+Vegetal Fort
+A downloadable game for Windows
+
+Game Premise
+
+The concept of this game is an inspiration from vampire survival, which is a top down shooter survival game. We use this game as a reference and develop it by adding the tower defense genre which makes it more difficult and challenging. This game uses an art style in the form of pixel art. This game tells the story of a farmer who tries to protect his warehouse from pests that attack his farm.
+
+Game Objectives
+
+The aim of this game is to get rid of pests that want to attack the farmer's barns. Players must protect the base and farm area from being attacked by pests. Pests can attack players within a certain radius. The player will lose if the barn is destroyed. Players can kill pests using their weapon. In addition, players can also plant special plants that can help kill pests.
+
+Gameplay Progression
+
+The difficulty of this game increases according to the waves. The higher the wave, the more enemies will attack and the stronger the enemy will be. By killing enemies, players will gain experience that can be used to increase player or plant strength. Upgrade will be given randomly, thus providing a new experience every time the player enters a new game. The end of the game is when the player manages to survive until the final wave, defeats the last enemy, and defeats all enemies on the map.
+
+
+
+
+
+
+
+Made by:
+
+Arceilo Hananta (programmer)
+Samuel Fernando (programmer)
+Ilham Bachtiar Irfani (artist)
+More information
+Download
+VegetalFort.zip
+30 MB
+Comments
+Log in with itch.io to leave a comment.
+
+Puipuipui123
+3 years ago
+(+1)
+Great game overall! Awesome dynamic gameplay and Fantastic Pixel Art!
+
+I had discovered a bug where the grenade launcher won't work.
+
+
+If you guys need some free music, I recommend this, please credit the music artist
+
+https://svl.itch.io/rpg-music-pack-svl
+
+Happy game developing!
+
+Reply
+snappyink
+3 years ago
+(+1)
+The Game is really fun but the music... it's always the same and at a point you don't want to hear it anymore. But the gameplay is really fun good job 
+
+Reply
+
+itch.io·View all by Raion Community·Report·Embed
+Games › Shooter › Free
+
+
+---
+
+
+The Eggventure
+A downloadable game for Windows
+
+YOU CONTROL THE ENVIRONMENT, NOT THE PLAYER
+
+
+
+Game Mechanic:
+
+Mouse left click : Choose platform
+W : Move platform up
+A : Move platform left
+S : Move platform down
+D : Move platform right
+
+
+Made By:
+
+Muhammad Haikal Fisabilillah (designer)
+Muhammad Firmansyah Putra (programmer)
+Aldino Titteo Rikardo (artist)
+More information
+Download
+The Eggventure.rar
+37 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by Raion Community·Report·Embed
+Games › Puzzle › Free
+
+
+---
+
+
+Compli-Cat
+A downloadable game for Windows
+
+Have you ever seen a cat running on two legs?
+
+Why is the cat running?
+
+Why is he wearing a robe?
+
+Why are there so many odd things?
+
+
+
+Welcome to a story where you play as a cat amidst the destruction of the world. A world full of pollution, carbon emissions, waste disposal……… and Zombies.
+
+Compli-Cat…… As the name implies, is a game that presents a very difficult mechanic to play because it combines Hack n Slash with a touch of Endless Run. The combination of these two things makes for an interesting playing sensation. Welcome to Compli-Cat.
+
+
+
+Made by:
+
+Alexius Andrianno Alfa Renanta (designer)
+Isya Almanda Bethrandria (programmer)
+Sindoro Chaidar Muzaki Asysyahid (artist)
+Narendra Dhafa Ilyaza (artist)
+More information
+Download
+Compli-Cat.zip
+28 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by Raion Community·Report·Embed
+Games › Platformer › Free
+
+
+---
+
+
+Hover Clock
+A downloadable game for Windows
+
+HoverClock is a 2D endless runner with a hoverboard mechanic. The title HoverClock is taken from the words hoverboard and overclock. This is because this game tells of a scientist who is trying to save himself using an overclocked hoverboard so he never stop hovering.
+
+
+
+Story (in Bahasa Indonesia):
+
+Di sebuah kota futuristik, terdapat seorang ilmuwan yang sedang meneliti entitas alien di lab. Alien tersebut ditemukan dalam keadaan non-aktif/hibernasi. Untuk mengaktifkan sel alien tersebut, dibutuhkan DNA manusia yang akan dimasukkan ke tubuh alien tersebut. Oleh karena itu, sang ilmuwan memasukkan darahnya ke dalam tubuh alien tersebut dengan sukarela. Namun ternyata, alien tersebut merupakan alien tipe pembunuh yang cara kerjanya adalah dengan memasukkan DNA target yang akan dibunuh ke dalam alien tersebut. Sang ilmuwan pun panik melihat alien tersebut mulai bangkit dan bersiaga untuk membunuhnya. Satu-satunya pintu keluar adalah pintu utama lab tersebut tetapi situasi lab saat itu dalam kondisi lockdown. Sang ilmuwan pun bergegas mengambil sebuah hoverboard dan melompat keluar melalui kaca laboratorium. Namun saat menggunakan hoverboard tersebut, sang ilmuwan baru sadar bahwa hoverboard yang dipakainya rusak dan tidak dapat diberhentikan kecuali saat baterai-nya habis. Sialnya lagi, sang alien tetap mengejar ilmuwan tersebut hingga keluar laboratorium. Sang ilmuwan pun harus mencari cara menelusuri medan kota futuristik untuk menghindar dari alien tersebut sambil mengambil baterai di tengah perjalanan agar hoverboard yang dipakai tidak berhenti.
+
+
+
+Made by:
+
+Rizqi Maulana Hafidz (designer)
+Erico Partogi Herlambang Margura Silitonga (programmer)
+Muhammad Aditya Darma Saputra (artist)
+More information
+Download
+HoverClock.zip
+34 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by Raion Community·Report·Embed
+Games › Platformer › Free
+
+
+---
+
+
+RAION JAM!
+A downloadable game for Windows
+
+You are Raion, a cool lion who really wants to show off his dance skills. But how can you succeed? You need to be able to play with the rhythm of each song in order to successfully beat song after song to become RAION JAM! Show your moves, and make others chill!
+
+
+
+Made by:
+
+Muhammad Daffa Ramadhani (designer)
+Abdan Nur Fikri (programmer)
+Muhamad Taufik Hakim (programmer)
+Satrio Pinilih (artist)
+Daniel Geoffrey Manurung (artist)
+More information
+Download
+RAION Jam.zip
+37 MB
+Comments
+Log in with itch.io to leave a comment.
+
+Saaa15
+3 years ago
+bagus banget sih gamenya utk awal awal walau ngambil SF ny
+
+Reply
+zayyz
+3 years ago
+(-1)
+ditunggu updatenya bang
+
+Reply
+
+itch.io·View all by Raion Community·Report·Embed
+Games › Rhythm › Free
+
+
+---
+
+
+Winter Wonderland - Escape from the Snow Erosion
+A downloadable game for Windows
+
+We made a platformer game with the theme of snow in the snow mountains. This game is inspired by other platformer games such as Mario Bros, Megaman, and Sonic. The story of this game comes from the ideas developed by the designer of this game.
+
+Winter Wonderland is a platformer game set in a snowy mountain. The player plays as the Yeti who is trying to save himself from an avalanche in the snowy mountains. In this game, there are features to add to the excitement of this game, for example Yeti can throw snowballs and climb walls by jumping left and right.
+
+
+
+Made by:
+
+Fathurrahman Hernanda (designer)
+Jason Wijaya (designer)
+Rifky Maulana Syahputra (programmer)
+Juan Christopher Young (programmer)
+Haniefa Azhari Fathni Mufidah (artist)
+More information
+Download
+WinderW.zip
+36 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by Raion Community·Report·Embed
+Games › Platformer › Free
+
+
+---
+
+
+
+Yellow Riding Hood
+A downloadable game
+
+A video game made as a submission for Hology 2018 GameDev Competition that made it into the finals.
+
+More information
+Download
+Yellow Riding Hood.zip
+44 MB
+Install instructions
+1. Download the Zip file.
+
+2. Extract
+
+3. Run "Yellow Riding Hood.exe"
+
+Comments
+Log in with itch.io to leave a comment.
+
+Suspended account
+6 years ago
+Show post...
+Reply
+
+
+itch.io·View all by 0xPufferFish·Report·Embed
+Games › Platformer › Free
+
+
+---
+
+
+Super Janitor Bros
+A downloadable game for Android
+
+WASD or JoyStick : Move
+A  : Dash
+B : Push Or carry
+
+Game Designer
+1. Bintang Fathur Rahman
+
+Programmer
+1. Yohannes Sebastian Sibarani
+
+2. Ivan Lianto
+
+3. Dave Putra Radin
+
+4. Robertus Dwi Ari Utomo
+
+Artist
+1. Natasya Tesalonika Siahaan
+
+
+
+Thanks to :
+
+Raion Community
+Luka712 (CRT Shader in game)
+
+
+
+Link Poster
+https://drive.google.com/file/d/1-YYuM-mCWorlq1gq2uN0qor9iYEOvz4G/view?usp=shari...
+
+
+
+More information
+Download
+SuperJanitor.v0.2.apk
+48 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by BintangFR·Report·Embed
+Games › Action › Free
+
+
+---
+
+
+Save Me, Hoomaan!
+A downloadable game for Windows
+
+A video game that raises up environmental issues about illegal logging which have an impact on the safety and preservation of wild animals. Made in just 48 hours as a submission for Raion Hackjam 2019 Competition.
+
+More information
+Download
+Save Me Hooman!.zip
+68 MB
+Install instructions
+1. Download the Zip file.
+
+2. Extract
+
+3. Run "Save Me Hoomaan!.exe"
+
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by 0xPufferFish·Report·Embed
+Games › Strategy › Free
+
+
+---
+
+
+OwlCorp
+A downloadable game for Windows
+
+OwlCorp adalah game edukasi interaktif yang mendukung proses pembelajaran dengan memberikan reward ketika pemain berhasil menyelesaikan tantangan tertentu. Pada game ini anda bermain sebagai seekor burung hantu yang ditugasi untuk menyortir burung hantu dan kemudian menghancurkan kotak kayu dengan mengetikkan kata-kata yang muncul pada kotak tersebut dengan benar.
+
+More information
+Download
+OwlCorp.zip
+44 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by Raion Community·Report·Embed
+Games › Educational › Free
+
+
+---
+
+
+One Two Three Dango !
+A downloadable game
+
+    
+Princess Dango has been kidnaped, let's get her back !
+
+
+More information
+Download
+One Two Three Dango!.zip
+61 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by BintangFR·Report·Embed
+Games › Puzzle › Free
+
+
+---
+
+
+One Fiend
+A downloadable game
+
+One Fiend is a game that exists for submission to RAION HackJam 2020. In this game, the player plays as a single Fiend, who wants to make peace with humankind after a long war with each other. Find the material to make a Scroll and give it to the king of the human. If he accepts it, peace for both sides will come to reconcile the world.
+
+Game Poster: https://drive.google.com/file/d/1Iz_5ySOmM4qCIAo1uGISJYUR-Muj7uT3/view?usp=shari...
+
+Team Member:
+Muhammad Haikal Fisabilillah - Designer
+
+Ezra Reihardian Sihotang - Artist
+
+Amanda Vania Audrey - Artist
+
+Muhammad Rafif Al Aziz - Programmer
+
+Bagus Tri Widiyanto - Programmer
+
+
+
+The game is sadly DISCONTINUED
+
+More information
+Download
+OneFiend.rar
+44 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by Unknowned·Report·Embed
+Games › Adventure › Free
+
+
+---
+
+
+Mistic Theft
+A downloadable game
+
+Mistic Theft is a Roguelite game with proceduraly generated level that takes background on an invisible theft which comes from Indonesian Legend. Help our Mysthical Theft to complete the mission, take all those coins, avoid guards, upgrade your power, enjoy the challange in every round with randomized room layout and Become the best Theft in the World!
+Control:
+WASD : Move
+Space   : Stun Enemies
+
+
+Game Designer
+1. Bintang Fathur Rahman (BintangFR)
+
+Programmer
+1. Joe Sibarani (joess_tnt)
+
+2. Ivan Lianto (ivanlianto59)
+
+3. Dave Putra Radin (daverdn)
+
+Artist
+1. Audrey Ardelia (adryrdla)	
+More information
+Download
+Neonhead Studio_Mistic Theft.zip
+55 MB
+Install instructions
+Extract the archived file, and start the executable file.
+
+Comments
+Log in with itch.io to leave a comment.
+
+penguin55
+5 years ago
+Wah portalnya keren kak,
+
+Reply
+ivanlianto59
+5 years ago
+Rilis di steam dong kk
+
+Reply
+
+
+itch.io·View all by BintangFR·Report·Embed
+Games › Adventure › Free
+
+
+---
+
+
+Lost in The Dark World
+A downloadable Lost in the Dark World for Windows
+
+Lost in The Dark World Is A classically styled 2D puzzle platformer where you play as an astronaut stuck on an unknown desolate planet.
+
+
+
+Made by:
+
+Arceilo Hananta (programmer)
+Samuel Fernando (programmer)
+Ilham Bachtiar Irfani (artist)
+More information
+Download
+Lost In The Dark World_Data.zip
+34 MB
+Install instructions
+1. Extract the zip
+2. Open the unzip file, search for LostInDarkWorld.exe
+3. Run it and enjoy the game
+
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+
+itch.io·View all by Samuel Indie Game·Report·Embed
+Games › Platformer › Free
+
+
+---
+
+
+Jumper
+A downloadable game for Windows
+
+A Vertical Scrolling Platformer game with the goal of surviving as long as possible with an ever-rising floor cap
+
+
+
+Made by:
+
+Natanael Kristian (designer)
+Hafidz (programmer)
+Christian Novandinata Setijo (programmer)
+Rahma Nur Fitriani (artist)
+Diana Ayu Sukma Putri (artist)
+More information
+Download
+Jumper.rar
+19 MB
+Leave a comment
+Log in with itch.io to leave a comment.
+
+
+itch.io·View all by Raion Community·Report·Embed
+Games › Platformer › Free
+
+

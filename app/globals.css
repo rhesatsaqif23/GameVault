@@ -2,25 +2,92 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f0f12;
+  
+  --primary: #6d51c2;
+  --primary-light: #805fe3;
+  --primary-dark: #6040b8;
+  
+  --card: #ffffff;
+  --card-foreground: #0f0f12;
+  
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #6d51c2;
+}
+
+.dark {
+  --background: #0f0f12;
+  --foreground: #f8f9fa;
+  
+  --card: #1a1a1f;
+  --card-foreground: #f8f9fa;
+  
+  --border: #2d2d35;
+  --input: #2d2d35;
+  --ring: #805fe3;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  
+  --color-border: var(--border);
+  
+  --font-sans: "Creato Display", var(--font-outfit), sans-serif;
+  --font-display: "Creato Display", var(--font-outfit), sans-serif;
+  
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: "Creato Display", var(--font-outfit), sans-serif !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .bg-purple-gradient {
+    background: linear-gradient(135deg, #6d51c2 0%, #805fe3 100%);
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, #6d51c2 0%, #805fe3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .shadow-premium {
+    box-shadow: 0 25px 50px -12px rgba(109, 81, 194, 0.15);
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
 }
