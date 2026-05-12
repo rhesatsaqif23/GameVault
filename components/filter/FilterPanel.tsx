@@ -1,97 +1,325 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { getAllGenres, getAllPlatforms } from '@/lib/games';
+import { ChevronDown, Check, Star } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import Button from '@/components/ui/Button';
+
+const AccordionItem = ({ 
+  title, 
+  children, 
+  count, 
+  onClear, 
+  isExpanded, 
+  onToggle 
+}: { 
+  title: string, 
+  children: React.ReactNode, 
+  count?: number, 
+  onClear?: () => void,
+  isExpanded: boolean,
+  onToggle: () => void
+}) => {
+  const hasCount = typeof count === 'number' && count > 0;
+
+  return (
+    <div className="border-b border-border/50 last:border-0">
+      <div className="flex items-center justify-between">
+        <button
+          onClick={onToggle}
+          className="grow flex items-center justify-between py-4 group transition-colors"
+        >
+          <span className={`text-sm font-bold uppercase tracking-wider transition-colors ${isExpanded ? 'text-primary' : 'text-foreground transition-colors group-hover:text-primary'}`}>
+            {title}
+            {hasCount && (
+              <span className="ml-2 text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-bold">
+                {count}
+              </span>
+            )}
+          </span>
+        </button>
+        <div className="flex items-center gap-3">
+          {onClear && hasCount && (
+            <button 
+              onClick={(e) => { e.stopPropagation(); onClear(); }}
+              className="text-xs font-bold text-primary hover:underline uppercase tracking-tighter"
+            >
+              Clear
+            </button>
+          )}
+          <button onClick={onToggle}>
+            <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isExpanded ? 'rotate-180 text-primary' : 'text-foreground/80'}`} />
+          </button>
+        </div>
+      </div>
+      <AnimatePresence initial={false}>
+        {isExpanded && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3, ease: [0.04, 0.62, 0.23, 0.98] }}
+            className="overflow-hidden"
+          >
+            <div className="pb-4">
+              {children}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+};
 
 const FilterPanel = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const paramsString = searchParams.toString();
   
-  const genres = ['All', ...getAllGenres()];
-  const platforms = ['All', ...getAllPlatforms()];
-  
-  const currentGenre = searchParams.get('genre') || 'All';
-  const currentPlatform = searchParams.get('platform') || 'All';
-  const currentSort = searchParams.get('sort') || 'newest';
+  const [expandedIds, setExpandedIds] = useState<string[]>(['genre']);
+  const [minPrice, setMinPrice] = useState(searchParams.get('minPrice') || '');
+  const [maxPrice, setMaxPrice] = useState(searchParams.get('maxPrice') || '');
 
-  const updateFilter = (key: string, value: string) => {
+  const toggleAccordion = (id: string) => {
+    setExpandedIds(prev => 
+      prev.includes(id) ? prev.filter(i => i !== id) : [...prev, id]
+    );
+  };
+
+  const allGenres = getAllGenres();
+  const allPlatforms = getAllPlatforms();
+  
+  const currentGenres = searchParams.get('genre')?.split(',') || [];
+  const currentPlatforms = searchParams.get('platform')?.split(',') || [];
+  const currentSort = searchParams.get('sort') || 'newest';
+  const currentMinRating = searchParams.get('minRating') || '';
+
+  const updateURL = useCallback((updates: Record<string, string | null>) => {
     const params = new URLSearchParams(searchParams.toString());
-    if (value === 'All') {
-      params.delete(key);
+    Object.entries(updates).forEach(([key, value]) => {
+      if (value === null || value === '' || value === 'All') {
+        params.delete(key);
+      } else {
+        params.set(key, value);
+      }
+    });
+    router.replace(`/games?${params.toString()}`);
+  }, [searchParams, router]);
+
+  const toggleFilter = useCallback((key: string, value: string) => {
+    let currentValues = searchParams.get(key)?.split(',') || [];
+    if (currentValues.includes(value)) {
+      currentValues = currentValues.filter(v => v !== value);
     } else {
-      params.set(key, value);
+      currentValues.push(value);
     }
-    router.push(`/games?${params.toString()}`);
+    updateURL({ [key]: currentValues.length === 0 ? null : currentValues.join(',') });
+  }, [searchParams, updateURL]);
+
+  // Sync internal state with URL - use a ref to track the last synced value
+  const lastUrlMin = React.useRef(searchParams.get('minPrice') || '');
+  const lastUrlMax = React.useRef(searchParams.get('maxPrice') || '');
+
+  useEffect(() => {
+    const urlMin = searchParams.get('minPrice') || '';
+    const urlMax = searchParams.get('maxPrice') || '';
+    
+    if (urlMin !== lastUrlMin.current) {
+      setMinPrice(urlMin);
+      lastUrlMin.current = urlMin;
+    }
+    if (urlMax !== lastUrlMax.current) {
+      setMaxPrice(urlMax);
+      lastUrlMax.current = urlMax;
+    }
+  }, [paramsString, searchParams]);
+
+  const sortOptions = [
+    { value: 'newest', label: 'Recently Added' },
+    { value: 'rating', label: 'Highest Rated' },
+    { value: 'price_low', label: 'Lowest Price' },
+  ];
+
+  const formatPrice = (val: string) => {
+    if (!val) return '';
+    return val.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+  };
+
+  const handlePriceChange = (setter: (val: string) => void) => (e: React.ChangeEvent<HTMLInputElement>) => {
+    const rawValue = e.target.value.replace(/\D/g, '');
+    setter(rawValue);
   };
 
   return (
-    <div className="space-y-8 bg-card p-6 rounded-2xl border border-border shadow-sm">
-      <div>
-        <h3 className="text-sm font-bold text-foreground uppercase tracking-wider mb-4 flex items-center gap-2">
-          <svg className="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
-          </svg>
-          Sorting
-        </h3>
-        <select 
-          value={currentSort}
-          onChange={(e) => updateFilter('sort', e.target.value)}
-          className="w-full bg-background border border-border rounded-xl px-4 py-2.5 text-sm font-medium focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
+    <div className="bg-card rounded-2xl border border-border shadow-sm flex flex-col max-h-[calc(100vh-120px)]">
+      <div className="p-4 overflow-y-auto custom-scrollbar grow divide-y divide-border/50">
+        <AccordionItem 
+          title="Genres" 
+          isExpanded={expandedIds.includes('genre')} 
+          onToggle={() => toggleAccordion('genre')}
+          count={currentGenres.length}
+          onClear={() => updateURL({ genre: null })}
         >
-          <option value="newest">Release Date</option>
-          <option value="rating">Highest Rating</option>
-          <option value="price_low">Lowest Price</option>
-        </select>
+          <div className="flex flex-wrap gap-2 pt-1">
+            {allGenres.map((genre) => (
+              <button
+                key={genre}
+                onClick={() => toggleFilter('genre', genre)}
+                className={`px-4 py-1.5 text-sm font-bold rounded-lg border transition-all duration-200 flex items-center gap-1.5 ${
+                  currentGenres.includes(genre)
+                    ? "bg-primary border-primary text-white/90 shadow-lg shadow-primary/20 scale-[1.02]"
+                    : "bg-background border-border text-foreground hover:border-primary/50 hover:text-primary"
+                }`}
+              >
+                {currentGenres.includes(genre) && <Check className="w-3.5 h-3.5 stroke-3" />}
+                {genre}
+              </button>
+            ))}
+          </div>
+        </AccordionItem>
+
+        <AccordionItem 
+          title="Sort By" 
+          isExpanded={expandedIds.includes('sort')} 
+          onToggle={() => toggleAccordion('sort')}
+        >
+          <div className="space-y-1.5">
+            {sortOptions.map((opt) => (
+              <button
+                key={opt.value}
+                onClick={() => updateURL({ sort: opt.value })}
+                className={`w-full text-left px-4 py-2.5 text-sm font-bold rounded-lg transition-all duration-200 border ${
+                  currentSort === opt.value
+                    ? "bg-primary border-primary text-white shadow-lg shadow-primary/20"
+                    : "bg-background border-border/50 text-foreground hover:border-primary/30"
+                }`}
+              >
+                {opt.label}
+              </button>
+            ))}
+          </div>
+        </AccordionItem>
+
+        <AccordionItem 
+          title="Price" 
+          isExpanded={expandedIds.includes('price')} 
+          onToggle={() => toggleAccordion('price')}
+          count={(minPrice || maxPrice) ? 1 : 0}
+          onClear={() => {
+            setMinPrice('');
+            setMaxPrice('');
+            updateURL({ minPrice: null, maxPrice: null });
+          }}
+        >
+          <div className="space-y-3">
+            <div className="space-y-2.5">
+              <div className="relative group">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-border/50 bg-background rounded-l-lg px-3 mr-4">
+                  <span className="text-sm font-bold text-foreground">Rp</span>
+                </div>
+                <input
+                  type="text"
+                  inputMode="numeric"
+                  placeholder="Min Price"
+                  value={formatPrice(minPrice)}
+                  onChange={handlePriceChange(setMinPrice)}
+                  className="w-full pl-16 pr-4 py-2.5 bg-background border border-border/50 rounded-lg text-sm font-bold focus:ring-2 focus:ring-primary/20 focus:border-primary/50 outline-none transition-all placeholder:text-foreground/30"
+                />
+              </div>
+              <div className="relative group">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-border/50 bg-background rounded-l-lg px-3 mr-4">
+                  <span className="text-sm font-bold text-foreground">Rp</span>
+                </div>
+                <input
+                  type="text"
+                  inputMode="numeric"
+                  placeholder="Max Price"
+                  value={formatPrice(maxPrice)}
+                  onChange={handlePriceChange(setMaxPrice)}
+                  className="w-full pl-16 pr-4 py-2.5 bg-background border border-border/50 rounded-lg text-sm font-bold focus:ring-2 focus:ring-primary/20 focus:border-primary/50 outline-none transition-all placeholder:text-foreground/30"
+                />
+              </div>
+            </div>
+            <Button 
+              size="sm" 
+              className="w-full text-xs"
+              onClick={() => updateURL({ minPrice, maxPrice })}
+            >
+              Apply Filter
+            </Button>
+          </div>
+        </AccordionItem>
+
+
+        <AccordionItem 
+          title="Platforms" 
+          isExpanded={expandedIds.includes('platform')} 
+          onToggle={() => toggleAccordion('platform')}
+          count={currentPlatforms.length}
+          onClear={() => updateURL({ platform: null })}
+        >
+          <div className="flex flex-wrap gap-2 pt-1">
+            {allPlatforms.map((platform) => (
+              <button
+                key={platform}
+                onClick={() => toggleFilter('platform', platform)}
+                className={`px-4 py-1.5 text-sm font-bold rounded-lg border transition-all duration-200 flex items-center gap-1.5 ${
+                  currentPlatforms.includes(platform)
+                    ? "bg-primary border-primary text-white/90 shadow-lg shadow-primary/20 scale-[1.02]"
+                    : "bg-background border-border text-foreground hover:border-primary/50 hover:text-primary"
+                }`}
+              >
+                {currentPlatforms.includes(platform) && <Check className="w-3.5 h-3.5 stroke-3" />}
+                {platform}
+              </button>
+            ))}
+          </div>
+        </AccordionItem>
+
+        <AccordionItem 
+          title="Rating" 
+          isExpanded={expandedIds.includes('rating')} 
+          onToggle={() => toggleAccordion('rating')}
+          count={currentMinRating ? 1 : 0}
+          onClear={() => updateURL({ minRating: null })}
+        >
+          <div className="space-y-1.5">
+            {[9, 8, 7].map((rating) => (
+              <button
+                key={rating}
+                onClick={() => updateURL({ minRating: currentMinRating === rating.toString() ? null : rating.toString() })}
+                className={`w-full flex items-center gap-3 px-4 py-2.5 rounded-lg transition-all border ${
+                  currentMinRating === rating.toString()
+                    ? "bg-primary border-primary text-white shadow-md"
+                    : "bg-background border-border/50 text-foreground hover:border-primary/20"
+                }`}
+              >
+                <div className="flex items-center gap-1">
+                  <Star className={`w-4 h-4 ${currentMinRating === rating.toString() ? "fill-white text-white" : "fill-yellow-400 text-yellow-400"}`} />
+                  <span className="text-sm font-bold">{rating} & Up</span>
+                </div>
+              </button>
+            ))}
+          </div>
+        </AccordionItem>
       </div>
 
-      <div>
-        <h3 className="text-sm font-bold text-foreground uppercase tracking-wider mb-4 flex items-center gap-2">
-          <svg className="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
-          </svg>
-          Genres
-        </h3>
-        <div className="flex flex-wrap lg:flex-col gap-2">
-          {genres.map((genre) => (
-            <button
-              key={genre}
-              onClick={() => updateFilter('genre', genre)}
-              className={`px-4 py-2 text-left text-sm rounded-xl transition-all duration-200 ${
-                currentGenre === genre 
-                  ? "bg-primary text-white font-bold shadow-lg shadow-primary/20" 
-                  : "bg-background text-foreground/70 hover:bg-primary/5 hover:text-primary font-medium"
-              }`}
-            >
-              {genre}
-            </button>
-          ))}
+      {(currentGenres.length > 0 || currentPlatforms.length > 0 || currentSort !== 'newest' || minPrice || maxPrice || currentMinRating) && (
+        <div className="p-4 pt-2 border-t border-border/50">
+          <Button
+            onClick={() => {
+              setMinPrice('');
+              setMaxPrice('');
+              router.replace('/games');
+            }}
+            className="w-full py-2 text-sm tracking-wide"
+          >
+            Reset All Filters
+          </Button>
         </div>
-      </div>
-
-      <div>
-        <h3 className="text-sm font-bold text-foreground uppercase tracking-wider mb-4 flex items-center gap-2">
-          <svg className="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 21h6l-.75-4M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-          </svg>
-          Platforms
-        </h3>
-        <div className="flex flex-wrap lg:flex-col gap-2">
-          {platforms.map((platform) => (
-            <button
-              key={platform}
-              onClick={() => updateFilter('platform', platform)}
-              className={`px-4 py-2 text-left text-sm rounded-xl transition-all duration-200 ${
-                currentPlatform === platform 
-                  ? "bg-primary text-white font-bold shadow-lg shadow-primary/20" 
-                  : "bg-background text-foreground/70 hover:bg-primary/5 hover:text-primary font-medium"
-              }`}
-            >
-              {platform}
-            </button>
-          ))}
-        </div>
-      </div>
+      )}
     </div>
   );
 };

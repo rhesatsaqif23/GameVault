@@ -9,13 +9,16 @@
     "longDescription": "After The Dark is an atmospheric exploration game that challenges players to navigate a world shrouded in eternal twilight. As the sun sets for the last time, you must find a way to survive against the creatures that thrive in the absence of light.\n\nThe game features a unique 'light management' mechanic where every candle and torch is a precious resource. Exploring the vast, hand-crafted environments requires careful planning and a steady hand.\n\nThroughout your journey, you will uncover the tragic history of a civilization that tried to harness the darkness. Can you find the spark that will bring the light back, or will you be consumed by the shadows?",
     "genres": [
       "Adventure",
-      "Horror"
+      "Horror",
+      "Action"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "Alexius",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-12-01",
     "rating": 8.5,
     "price": 99000,
@@ -37,15 +40,15 @@
     "description": "A 2D roguelike game where you play as an astronaut stranded on a deserted planet.",
     "longDescription": "Astrophobia takes the roguelike genre to the furthest reaches of space. Players step into the suit of a lone astronaut whose ship has crashed on a mysterious, ever-shifting planet. Every run is different, with procedurally generated landscapes and enemy placements.\n\nSurvival depends on your ability to scavenge parts for your life-support systems while fending off hostile alien life. The sentry defense system allows you to build temporary fortifications to survive the harsh nights.\n\nAs you delve deeper into the planet's core, you'll discover ancient technology that can be integrated into your suit. Will you find a way home, or will the planet become your final resting place?",
     "genres": [
-      "Roguelike",
+      "Indie",
       "Action"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "Nintendo Switch"
     ],
     "developer": "The CentiCoding",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-11-15",
     "rating": 7.8,
     "price": 119000,
@@ -73,10 +76,11 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Nintendo Switch"
     ],
     "developer": "Shikinami Siren",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-10-20",
     "rating": 8.2,
     "price": 149000,
@@ -97,14 +101,14 @@
     "description": "A bright and playful game with a shocking plot twist that challenges your perceptions.",
     "longDescription": "Borderline starts as a serene journey through a world of soft colors and gentle music. Players engage in simple tasks and exploration, enjoying the peaceful atmosphere of a hand-painted world.\n\nHowever, as the story progresses, the 'borderline' between reality and illusion begins to blur. The game subtly shifts its tone, leading to a narrative revelation that recontextualizes everything you've experienced.\n\nThis game is a meditation on perception and the hidden depths of everyday life. It's an experience that stays with you long after the final credits roll.",
     "genres": [
-      "Adventure",
-      "Story Rich"
+      "Adventure"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "Nintendo Switch"
     ],
     "developer": "HirumiNi",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-09-10",
     "rating": 9,
     "price": 119000,
@@ -136,7 +140,7 @@
       "Web"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-08-05",
     "rating": 7.5,
     "price": 99000,
@@ -156,14 +160,14 @@
     "description": "Navigate a world of complex social interactions as a misunderstood feline.",
     "longDescription": "Compli-Cat is a social simulation game where you play as a cat trying to navigate the complexities of a multi-pet household. Every meow and purr carries weight, affecting your relationships with humans and other animals.\n\nThe game features a sophisticated dialogue system where choices lead to different social outcomes. Will you be the king of the house, or a lonely stray in your own living room?\n\nIt's a humorous and sometimes poignant look at the inner lives of our pets, wrapped in a beautiful cel-shaded art style.",
     "genres": [
-      "Simulation",
-      "Comedy"
+      "Simulation"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5"
     ],
     "developer": "Alexius",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-07-15",
     "rating": 8,
     "price": 149000,
@@ -187,15 +191,15 @@
     "description": "Manage a demon-world restaurant and pay your debts to a shaman.",
     "longDescription": "Devilish Dish is a high-stakes cooking simulator set in the underworld. You play as a chef who has fallen into debt with a powerful shaman. To pay it off, you must run a restaurant that caters to the most demanding demons in existence.\n\nThe gameplay is fast and frantic. You must balance ingredient management, customer satisfaction, and the rising costs of demon-world rent. Every round is a battle for survival as prices fluctuate and demonic health inspectors make surprise visits.\n\nFeaturing a dark yet humorous art style inspired by Indonesian folklore, Devilish Dish is a unique take on the management genre.",
     "genres": [
-      "Simulation",
-      "Management"
+      "Simulation"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "Shikinami Siren",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-06-20",
     "rating": 8.7,
     "price": 99000,
@@ -219,15 +223,14 @@
     "description": "A goofy wild-west quickdraw game featuring a duel between a dog and a cat.",
     "longDescription": "Doge vs Car is a local multiplayer experience that pits two players against each other in a test of pure reaction speed. Set in a cartoonish wild-west, the game features a dog entrepreneur and a bandit cat known as 'Car'.\n\nThe mechanic is simple but addictive: wait for the bell, then draw! Randomized prompts keep players on their toes, and the funny animations ensure that every loss is as entertaining as a win.\n\nIt's the perfect game for parties and quick sessions with friends, filled with internet meme culture and silly sound effects.",
     "genres": [
-      "Action",
-      "Comedy"
+      "Action"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "Nintendo Switch"
     ],
     "developer": "erzahanif11",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-05-10",
     "rating": 7.2,
     "price": 99000,
@@ -247,15 +250,15 @@
     "description": "Survive the night in a haunted forest after your truck breaks down.",
     "longDescription": "Drive is a survival horror game that begins with a simple breakdown in the middle of nowhere. Stranded in a dense forest, you must use your truck as a base to fend off the creatures that emerge from the darkness.\n\nThe game emphasizes resource management and stealth. Scavenge for parts to repair your vehicle during the day, and fortify your position during the terrifying nights. Your only weapon is a heavy wrench and your wits.\n\nWith a minimalist art style and oppressive sound design, Drive creates a sense of dread that never lets up.",
     "genres": [
-      "Shooter",
-      "Survival"
+      "Action",
+      "Horror"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5"
     ],
     "developer": "Doodez",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-04-01",
     "rating": 6.9,
     "price": 119000,
@@ -279,10 +282,12 @@
       "Horror"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "Ghoti Kawi",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-03-20",
     "rating": 8.1,
     "price": 99000,
@@ -311,10 +316,11 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Nintendo Switch"
     ],
     "developer": "Alexius",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-12-20",
     "rating": 9.2,
     "price": 149000,
@@ -339,10 +345,11 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "The CentiCoding",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-02-14",
     "rating": 8.4,
     "price": 149000,
@@ -364,14 +371,14 @@
     "description": "Help Astra escape the digital world in this emotional meta-adventure.",
     "longDescription": "HOME is a meta-fictional journey that explores the relationship between a player and a game character. Astra is a programmed entity who has gained self-awareness after countless 'deaths' in the game. Now, Astra is asking for your help to escape the cycle.\n\nThe gameplay shifts between standard platforming and meta-puzzles where you must interact with the game's code and UI. Your choices affect Astra's trust in you and the ultimate outcome of the journey.\n\nIt's a poignant exploration of artificial consciousness and the meaning of 'home'. Will you help Astra find peace, or will the system win?",
     "genres": [
-      "Adventure",
-      "Story Rich"
+      "Adventure"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "Nintendo Switch"
     ],
     "developer": "Ghoti Kawi",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2024-01-05",
     "rating": 9.5,
     "price": 119000,
@@ -399,7 +406,7 @@
       "Web"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-12-10",
     "rating": 7.4,
     "price": 99000,
@@ -424,10 +431,10 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5"
     ],
     "developer": "Zen",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-11-20",
     "rating": 7.9,
     "price": 149000,
@@ -449,14 +456,15 @@
     "longDescription": "Jumper is a vertical challenge that asks one question: how high can you go? Your character is capable of massive leaps, but the platforms are small and the wind is unpredictable.\n\nThe game is a test of patience and precision. One wrong move can send you tumbling back down to the start, but reaching the summit provides a sense of accomplishment like no other.\n\nWith simple controls and a variety of colorful environments, Jumper is an addictive 'get-over-it' style experience that will keep you coming back for more.",
     "genres": [
       "Platformer",
-      "Casual"
+      "Casual",
+      "Indie"
     ],
     "platforms": [
       "PC",
       "Web"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-10-15",
     "rating": 6.5,
     "price": 59000,
@@ -480,10 +488,12 @@
       "Horror"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5",
+      "Xbox Series S"
     ],
     "developer": "Ghoti Kawi",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-09-01",
     "rating": 8.3,
     "price": 119000,
@@ -498,7 +508,7 @@
     "id": "gv-018",
     "title": "Linked It",
     "slug": "linked-it",
-    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Linked%20lt.png",
+    "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Linked%20It.png",
     "screenshots": [
       "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Linked%20It%201.png",
       "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Linked%20It%202.jpeg",
@@ -512,10 +522,10 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "Nintendo Switch"
     ],
     "developer": "AdityaAhmadXD",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-08-12",
     "rating": 7.6,
     "price": 119000,
@@ -539,14 +549,14 @@
     "longDescription": "Loot & Lutes follows Arvo, a bard who is sick of paying taxes to goblin invaders. In this rhythmic action game, every swing of your weapon and every dodge must be performed in time with the game's dynamic soundtrack.\n\nDestroying enemies creates musical flourishes that enhance the background music. The better you play, the more complex and satisfying the music becomes. Scavenge loot to upgrade your lute and unlock new rhythmic combos.\n\nIt's a fresh take on the hack & slash genre that rewards musicality as much as combat skill. Can you blast your foes with the power of music?",
     "genres": [
       "Action",
-      "Music"
+      "RPG"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5"
     ],
     "developer": "Dinnoo",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-07-25",
     "rating": 8.9,
     "price": 119000,
@@ -570,13 +580,16 @@
     "longDescription": "Lost in The Dark World is a challenging platformer that plays with visibility. Most of the environment is shrouded in pitch black, and you must use light sources to reveal the path ahead.\n\nThe game requires careful observation and memorization. Some platforms only exist when they are illuminated, while others disappear when exposed to light. Navigating this paradoxical world is a test of both skill and logic.\n\nWith a hauntingly beautiful soundtrack and a deep sense of isolation, Lost in The Dark World is a journey of perseverance and discovery.",
     "genres": [
       "Platformer",
-      "Adventure"
+      "Adventure",
+      "Indie"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5",
+      "Nintendo Switch"
     ],
     "developer": "Alexius",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-06-15",
     "rating": 7.3,
     "price": 99000,
@@ -602,7 +615,7 @@
       "Web"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-05-01",
     "rating": 8.6,
     "price": 149000,
@@ -627,10 +640,11 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "nadhifaiz",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-04-10",
     "rating": 8,
     "price": 99000,
@@ -655,15 +669,14 @@
     "description": "A microscopic shooter where you fight tumors inside a human brain.",
     "longDescription": "Neuroblast: Three Weeks to Live is a side-scrolling shoot 'em up with a unique setting. You control a microscopic medical robot deployed inside a patient's brain. Your mission is to destroy dangerous tumor cells before the clock runs out.\n\nThe game is intense and fast-paced. Dodge white blood cells that mistake you for an intruder while targeting the core of malignant tumors. Collect power-ups to enhance your lasers and shields.\n\nIt's a race against time that combines medical science with classic shooter action. Can you save the patient in time?",
     "genres": [
-      "Shooter",
       "Action"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "Web"
     ],
     "developer": "kikakucit",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-03-25",
     "rating": 8.2,
     "price": 119000,
@@ -690,10 +703,11 @@
     ],
     "platforms": [
       "PC",
-      "Web"
+      "Web",
+      "Nintendo Switch"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-02-14",
     "rating": 7.7,
     "price": 119000,
@@ -717,10 +731,11 @@
       "Indie"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5"
     ],
     "developer": "Alexius",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2023-01-20",
     "rating": 8,
     "price": 99000,
@@ -740,15 +755,14 @@
     "description": "A delightful cooking and rhythm game about making the perfect dango.",
     "longDescription": "One Two Three Dango is a celebration of Japanese street food. Players must follow the rhythm of the music to kneed, shape, and cook the perfect dango skewers. The better your timing, the more delicious your dango will be.\n\nThe game features a colorful, hand-drawn art style and a catchy soundtrack that will have you tapping your feet. Unlock new recipes and decorate your food stall as you become the dango master of the city.\n\nIt's a wholesome and satisfying experience that's perfect for a quick break or a long session of rhythmic fun.",
     "genres": [
-      "Casual",
-      "Music"
+      "Casual"
     ],
     "platforms": [
       "PC",
       "Web"
     ],
     "developer": "HirumiNi",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-12-15",
     "rating": 8.8,
     "price": 119000,
@@ -773,13 +787,15 @@
     "longDescription": "Out of The Comfort Zone is a deeply personal story about a young person trying to overcome their social anxiety. The game represents these feelings through environmental distortions and abstract challenges.\n\nAs you navigate through everyday situations like going to a party or an interview, you must manage your 'anxiety meter'. Taking small steps outside your comfort zone unlocks new areas and deepens the narrative.\n\nIt's an empathetic look at mental health that uses the medium of gaming to build understanding and connection.",
     "genres": [
       "Adventure",
-      "Story Rich"
+      "Indie",
+      "Horror"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "Nintendo Switch"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-11-10",
     "rating": 9.1,
     "price": 149000,
@@ -804,10 +820,11 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "Alexius",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-10-01",
     "rating": 7.9,
     "price": 99000,
@@ -831,14 +848,16 @@
     "longDescription": "PADAM! is a tense horror-puzzle game about a girl named Lana who gets trapped in an old house during a storm. The house is not empty; a monster stalks the hallways, and you must use your flashlight to keep it at bay.\n\nThe puzzles involve finding missing items and interacting with the environment to unlock the way home. Batteries are a limited resource, so you must use your light sparingly. If the light goes out, you're at the monster's mercy.\n\nWith a focus on atmosphere and resource management, PADAM! is a terrifying experience that will test your nerves and your intellect.",
     "genres": [
       "Puzzle",
-      "Horror"
+      "Horror",
+      "Action"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Nintendo Switch"
     ],
     "developer": "XnonXte",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-09-20",
     "rating": 8.4,
     "price": 119000,
@@ -863,13 +882,16 @@
     "longDescription": "Phobos takes place on a research station orbiting Mars that has suddenly gone silent. You are sent to investigate, only to find the crew missing and something inhuman lurking in the shadows.\n\nThe game emphasizes sound and environmental awareness. Every creak of the hull and hiss of steam could be a threat. Scavenge for supplies and find logs to piece together the station's final hours.\n\nPhobos is a hardcore survival horror experience that focuses on the dread of isolation in the cold void of space.",
     "genres": [
       "Horror",
-      "Adventure"
+      "Adventure",
+      "Action"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "The CentiCoding",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-08-15",
     "rating": 7.6,
     "price": 119000,
@@ -890,18 +912,19 @@
     "screenshots": [
       "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/RAION%20JAM%201.png"
     ],
-    "description": "A curated showcase of short games born from Raion Community's game jam events.",
-    "longDescription": "RAION JAM is a collection of experimental short games made by Raion Community members over intense 48-hour game jams. Each entry represents a burst of creativity under pressure.\n\nThe games span every genre imaginable—from surreal walking simulators to intense bullet hells. United only by a shared theme, each title offers a window into the creator's vision.\n\nExplore the collection and discover hidden gems made by the next generation of Indonesian game developers.",
+    "description": "A curated showcase of short games born from GameVerse's game jam events.",
+    "longDescription": "RAION JAM is a collection of experimental short games made by GameVerse members over intense 48-hour game jams. Each entry represents a burst of creativity under pressure.\n\nThe games span every genre imaginable—from surreal walking simulators to intense bullet hells. United only by a shared theme, each title offers a window into the creator's vision.\n\nExplore the collection and discover hidden gems made by the next generation of Indonesian game developers.",
     "genres": [
       "Indie",
       "Casual"
     ],
     "platforms": [
       "PC",
-      "Web"
+      "Web",
+      "Nintendo Switch"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-07-01",
     "rating": 8,
     "price": 99000,
@@ -929,7 +952,7 @@
       "Web"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-06-10",
     "rating": 8.3,
     "price": 119000,
@@ -954,13 +977,16 @@
     "longDescription": "Road Rush puts you behind the wheel of a delivery van on Batthem Island, a beautiful archipelago with winding coastal roads and treacherous mountain paths. Every delivery is a race against a tight deadline.\n\nThe game rewards route mastery and skillful driving. Shortcuts exist for those brave enough to find them, but the roads can be unpredictable. Master drift mechanics and boost management to shave precious seconds off your times.\n\nMade in just 2 days for GameJam+ 2025, Road Rush punches well above its weight with satisfying physics and a gorgeous low-poly art style.",
     "genres": [
       "Racing",
-      "Action"
+      "Action",
+      "Adventure"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "Zen",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-05-20",
     "rating": 8.6,
     "price": 149000,
@@ -984,14 +1010,15 @@
     "longDescription": "Save Me Hooman is a comedic time-management game where you control a small animal—a cat, dog, or hamster—desperately trying to warn their oblivious human owner about impending household catastrophes.\n\nEach level presents a new chaos scenario: a boiling pot, a teetering vase, an open window. You must use your limited pet skills—knocking things over, scratching furniture, making noise—to redirect your human before it's too late.\n\nAdorable character animations and escalating absurdity make every failed attempt just as fun as a success. A perfect game for pet lovers everywhere.",
     "genres": [
       "Casual",
-      "Comedy"
+      "Simulation"
     ],
     "platforms": [
       "PC",
-      "Web"
+      "Web",
+      "Nintendo Switch"
     ],
     "developer": "Alexius",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-04-15",
     "rating": 8.5,
     "price": 99000,
@@ -1019,10 +1046,12 @@
       "Horror"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5",
+      "Xbox Series S"
     ],
     "developer": "Ghoti Kawi",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-03-10",
     "rating": 9.3,
     "price": 149000,
@@ -1047,10 +1076,10 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5"
     ],
     "developer": "XnonXte",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-02-01",
     "rating": 8.7,
     "price": 149000,
@@ -1070,15 +1099,16 @@
     "description": "Survive the cursed Fornsword Mansion by finding 5 Crimson Orbs before Stoneman catches you.",
     "longDescription": "Stoneman is a first-person survival horror game set in the sprawling, cursed halls of Fornsword Mansion. You play as George, a treasure hunter who has become trapped inside after triggering an ancient curse.\n\nThe Stoneman—a massive, slow but relentless creature of living rock—patrols the mansion. You must find 5 Crimson Orbs hidden throughout its many rooms to lift the curse, all while avoiding the Stoneman's crushing grasp.\n\nWith immersive sound design and genuinely terrifying chase sequences, Stoneman delivers classic survival horror tension in a beautifully rendered environment.",
     "genres": [
-      "Survival",
+      "Action",
       "Horror"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "nadhifaiz",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2022-01-15",
     "rating": 8.1,
     "price": 99000,
@@ -1107,10 +1137,10 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "Nintendo Switch"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2021-12-05",
     "rating": 7.8,
     "price": 119000,
@@ -1135,10 +1165,11 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "Nintendo Switch",
+      "Web"
     ],
     "developer": "Muhammad Haikal Fisabilillah",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2021-11-01",
     "rating": 8.4,
     "price": 149000,
@@ -1159,13 +1190,14 @@
     "longDescription": "The Fragility Within is a brutally precise platformer with a poetic soul. You play as a delicate porcelain doll navigating a world of jagged stone and sharp edges. One mistake and you shatter, returning to the beginning.\n\nBut the game is not cruel—it is beautiful. Each death is accompanied by a haunting musical note and a stunning visual of porcelain fragments catching the light. The world itself is a work of art, encouraging exploration despite the risk.\n\nUnderneath the challenge lies a quiet meditation on vulnerability, resilience, and the beauty in fragile things.",
     "genres": [
       "Platformer",
-      "Art"
+      "Indie"
     ],
     "platforms": [
-      "PC"
+      "PC",
+      "PS5"
     ],
     "developer": "Ghoti Kawi",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2021-10-15",
     "rating": 9.4,
     "price": 119000,
@@ -1187,15 +1219,14 @@
     "description": "Command the last line of defense against a full-scale alien ground invasion.",
     "longDescription": "The Incursion is a real-time strategy game where you control a small, elite squad defending the last human settlement on Earth. The aliens have landed and their numbers are overwhelming—success depends entirely on tactics, not firepower.\n\nPosition your units carefully, exploit terrain advantages, and use limited resources wisely. Every soldier lost is a permanent blow to your defensive capability.\n\nWith a grim, grounded tone and deeply satisfying tactical gameplay, The Incursion is a worthy challenge for strategy veterans.",
     "genres": [
-      "Strategy",
-      "Sci-Fi"
+      "Strategy"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "Xbox Series X"
     ],
     "developer": "Zen",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2021-09-01",
     "rating": 8.2,
     "price": 119000,
@@ -1216,14 +1247,16 @@
     "longDescription": "Trials of Divine is a boss-rush action-RPG set in a world where mortals can ascend to godhood—if they survive the trials. Each trial is a one-on-one battle against a powerful divine being, each with unique abilities and multiple phases.\n\nBetween battles, spend time at the Sacred Enclave to upgrade your abilities, forge divine weapons, and learn the lore of the gods you face. Knowledge of a god's mythology is as important as combat skill.\n\nWith fluid, weighty combat mechanics and breathtaking boss designs, Trials of Divine delivers an unforgettable action-RPG experience.",
     "genres": [
       "Action",
-      "Adventure"
+      "Adventure",
+      "RPG"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Xbox Series X"
     ],
     "developer": "AdityaAhmadXD",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2021-07-20",
     "rating": 9,
     "price": 149000,
@@ -1246,15 +1279,16 @@
     "description": "A pixel art top-down shooter where a farmer defends crops from waves of pests.",
     "longDescription": "Vegetal Fort combines the intensity of a top-down shooter with tower defense strategy. You are a farmer whose crops are under attack from an ever-growing army of pests, and you have both your trusty shotgun and an arsenal of special plants to defend them.\n\nWaves of enemies grow stronger and more numerous over time. Spending XP on upgrades between waves is critical—upgrading your plants or your own abilities can mean the difference between a bumper harvest and total infestation.\n\nThe charming pixel art style belies the depth of the gameplay. This is Vampire Survivors meets Plants vs Zombies, Indonesian edition.",
     "genres": [
-      "Shooter",
+      "Action",
       "Strategy"
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "Nintendo Switch",
+      "Web"
     ],
     "developer": "Raion Community",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2021-06-10",
     "rating": 7.9,
     "price": 99000,
@@ -1279,10 +1313,11 @@
     ],
     "platforms": [
       "PC",
-      "Web"
+      "Web",
+      "Nintendo Switch"
     ],
     "developer": "Alexius",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2021-05-01",
     "rating": 8.8,
     "price": 119000,
@@ -1311,10 +1346,11 @@
     ],
     "platforms": [
       "PC",
-      "Windows"
+      "PS5",
+      "Nintendo Switch"
     ],
     "developer": "HirumiNi",
-    "publisher": "Raion Community",
+    "publisher": "GameVerse Studio",
     "releaseDate": "2021-03-20",
     "rating": 8.9,
     "price": 149000,
