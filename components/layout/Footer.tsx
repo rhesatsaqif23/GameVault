@@ -296,7 +296,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Copyright */}
-        <div className="pt-8 border-t border-white/10 text-center flex flex-col md:flex-row justify-center items-center gap-2 text-sm text-white">
+        <div className="pt-8 border-t border-white/10 text-center flex flex-col md:flex-row justify-center items-center gap-2 text-xs md:text-sm text-white">
           <p>
             © Copyright 2026 | Designed & Developed by Ariverse Interns -
             License | Powered By Next.js

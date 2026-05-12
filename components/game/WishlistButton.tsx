@@ -51,7 +51,7 @@ const WishlistButton = ({ gameId, className = "", showText = true }: WishlistBut
 
       {!showText && (
         <div className="absolute top-full pt-2 pointer-events-none opacity-0 group-hover/wishlist:opacity-100 transition-opacity duration-300 whitespace-nowrap z-50">
-          <div className="bg-foreground text-background text-[10px] md:text-xs font-bold px-2 py-1 rounded shadow-xl">
+          <div className="bg-foreground text-background text-[11px] md:text-xs font-bold px-2 py-1 rounded shadow-xl">
             {active ? "Remove from Wishlist" : "Add to Wishlist"}
           </div>
         </div>

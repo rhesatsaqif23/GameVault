@@ -34,7 +34,7 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
       {/* Main Cover Image */}
       <section>
         <div 
-          className="group relative aspect-video rounded-3xl overflow-hidden border border-border shadow-2xl"
+          className="group relative aspect-video rounded-xl md:rounded-2xl overflow-hidden border border-border shadow-2xl"
           onClick={() => setCurrentIndex(0)}
         >
           <Image
@@ -58,9 +58,9 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
 
       {/* Gallery Grid */}
       <section>
-        <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
+        <h2 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-3">
           Gallery
-          <span className="text-sm font-medium text-foreground/80 bg-foreground/5 px-3 py-1 rounded-full">{screenshots.length} Images</span>
+          <span className="text-xs md:text-sm font-medium text-foreground/80 bg-foreground/5 px-3 py-1 rounded-full">{screenshots.length} Images</span>
         </h2>
         
         {screenshots.length > 0 ? (
@@ -103,7 +103,7 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
             ))}
           </motion.div>
         ) : (
-          <div className="text-center py-12 bg-card rounded-2xl border border-dashed border-border text-foreground/60 font-medium">
+          <div className="text-sm md:text-base text-center py-12 bg-card rounded-2xl border border-dashed border-border text-foreground/60 font-medium">
             No additional screenshots available.
           </div>
         )}

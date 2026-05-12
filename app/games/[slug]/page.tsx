@@ -58,11 +58,11 @@ const GameDetailPage = async ({ params }: GameDetailPageProps) => {
             <section className="bg-card p-6 md:p-8 rounded-2xl md:rounded-3xl border border-border">
               <h2 className="text-xl md:text-2xl font-bold mb-4">About</h2>
               <div className="prose dark:prose-invert max-w-none text-foreground/80 leading-relaxed">
-                <p className="text-base md:text-lg font-medium">
+                <p className="text-sm sm:text-base md:text-lg font-medium">
                   {game.description}
                 </p>
                 {game.longDescription && (
-                  <p className="mt-4 text-base md:text-lg text-justify">
+                  <p className="mt-4 text-sm sm:text-base md:text-lg text-justify">
                     {game.longDescription}
                   </p>
                 )}
@@ -95,7 +95,7 @@ const GameDetailPage = async ({ params }: GameDetailPageProps) => {
                 {game.genres.map((g) => (
                   <span
                     key={g}
-                    className="text-[10px] md:text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 px-3 py-1 rounded-full"
+                    className="text-[11px] md:text-xs font-bold uppercase tracking-widest text-primary-light bg-primary/10 px-3 py-1 rounded-full"
                   >
                     {g}
                   </span>
@@ -135,7 +135,7 @@ const GameDetailPage = async ({ params }: GameDetailPageProps) => {
                     {game.platforms.map((p) => (
                       <span
                         key={p}
-                        className="text-[10px] md:text-xs font-bold bg-background px-2 py-1 rounded-md border border-border"
+                        className="text-[11px] md:text-xs font-bold bg-background px-1 md:px-2 py-0.5 md:py-1 rounded-md border border-border"
                       >
                         {p}
                       </span>

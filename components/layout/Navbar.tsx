@@ -47,13 +47,13 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`relative h-full flex items-center gap-2 text-base font-bold tracking-wide transition-colors group/nav ${
+                className={`relative h-full flex items-center gap-2 text-sm md:text-base font-bold tracking-wide transition-colors group/nav ${
                   isActive ? "text-primary" : "text-foreground/80 hover:text-primary"
                 }`}
               >
                 {link.name}
                 {link.hasBadge && wishlist.length > 0 && (
-                  <span className="bg-primary text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full flex items-center justify-center min-w-[18px]">
+                  <span className="bg-primary text-white text-[11px] font-bold px-1.5 py-0.5 rounded-full flex items-center justify-center min-w-[18px]">
                     {wishlist.length}
                   </span>
                 )}
@@ -107,11 +107,11 @@ const Navbar = () => {
                     key={link.name}
                     href={link.href}
                     onClick={() => setIsOpen(false)}
-                    className="text-lg font-bold tracking-wide hover:text-primary transition-colors flex items-center justify-between"
+                    className="text-xs md:text-sm font-bold tracking-wide hover:text-primary transition-colors flex items-center justify-between"
                   >
                     {link.name}
                     {link.hasBadge && wishlist.length > 0 && (
-                      <span className="bg-primary text-white text-xs font-bold px-2 py-1 rounded-full flex items-center justify-center min-w-[24px]">
+                      <span className="bg-primary text-white text-[11px] md:text-xs font-bold px-2 py-1 rounded-full flex items-center justify-center min-w-[24px]">
                         {wishlist.length}
                       </span>
                     )}

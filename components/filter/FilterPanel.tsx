@@ -31,10 +31,10 @@ const AccordionItem = ({
           onClick={onToggle}
           className="grow flex items-center justify-between py-4 group transition-colors"
         >
-          <span className="text-sm font-bold uppercase tracking-wider text-foreground group-hover:text-primary transition-colors">
+          <span className="text-xs md:text-sm font-bold uppercase tracking-wider text-foreground group-hover:text-primary transition-colors">
             {title}
             {hasCount && (
-              <span className="ml-2 text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-bold">
+              <span className="ml-2 text-[11px] md:text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-bold">
                 {count}
               </span>
             )}
@@ -44,7 +44,7 @@ const AccordionItem = ({
           {onClear && hasCount && (
             <button 
               onClick={(e) => { e.stopPropagation(); onClear(); }}
-              className="text-xs font-bold text-primary hover:underline uppercase tracking-tighter"
+              className="text-[11px] md:text-xs font-bold text-primary hover:underline uppercase tracking-tighter"
             >
               Clear
             </button>
@@ -167,7 +167,7 @@ const FilterPanel = () => {
               <button
                 key={genre}
                 onClick={() => toggleFilter('genre', genre)}
-                className={`px-4 py-1.5 text-sm font-bold rounded-lg border transition-all duration-200 flex items-center gap-1.5 ${
+                className={`px-4 py-1.5 text-xs md:text-sm font-bold rounded-lg border transition-all duration-200 flex items-center gap-1.5 ${
                   currentGenres.includes(genre)
                     ? "bg-primary border-primary text-white/90 shadow-lg shadow-primary/20 scale-[1.02]"
                     : "bg-background border-border text-foreground hover:border-primary/50 hover:text-primary"
@@ -190,7 +190,7 @@ const FilterPanel = () => {
               <button
                 key={opt.value}
                 onClick={() => updateURL({ sort: opt.value })}
-                className={`w-full text-left px-4 py-2.5 text-sm font-bold rounded-lg transition-all duration-200 border ${
+                className={`w-full text-left px-4 py-2.5 text-xs md:text-sm font-bold rounded-lg transition-all duration-200 border ${
                   currentSort === opt.value
                     ? "bg-primary border-primary text-white shadow-lg shadow-primary/20"
                     : "bg-background border-border/50 text-foreground hover:border-primary/30"
@@ -224,7 +224,7 @@ const FilterPanel = () => {
                   }}
                 >
                   <div className="px-3 py-2.5 bg-background border-r border-border/50 flex items-center justify-center pointer-events-none">
-                    <span className="text-sm font-bold text-foreground">Rp</span>
+                    <span className="text-xs md:text-sm font-bold text-foreground">Rp</span>
                   </div>
                   <input
                     type="text"
@@ -232,7 +232,7 @@ const FilterPanel = () => {
                     placeholder="Min Price"
                     value={formatPrice(minPrice)}
                     onChange={handlePriceChange(setMinPrice)}
-                    className="flex-1 px-4 py-2.5 bg-transparent text-sm font-bold outline-none placeholder:text-foreground/30"
+                    className="flex-1 px-4 py-2.5 bg-transparent text-xs md:text-sm font-bold outline-none placeholder:text-foreground/30"
                   />
                 </div>
 
@@ -245,7 +245,7 @@ const FilterPanel = () => {
                   }}
                 >
                   <div className="px-3 py-2.5 bg-background border-r border-border/50 flex items-center justify-center pointer-events-none">
-                    <span className="text-sm font-bold text-foreground">Rp</span>
+                    <span className="text-xs md:text-sm font-bold text-foreground">Rp</span>
                   </div>
                   <input
                     type="text"
@@ -253,13 +253,13 @@ const FilterPanel = () => {
                     placeholder="Max Price"
                     value={formatPrice(maxPrice)}
                     onChange={handlePriceChange(setMaxPrice)}
-                    className="flex-1 px-4 py-2.5 bg-transparent text-sm font-bold outline-none placeholder:text-foreground/30"
+                    className="flex-1 px-4 py-2.5 bg-transparent text-xs md:text-sm font-bold outline-none placeholder:text-foreground/30"
                   />
                 </div>
               </div>
             <Button 
               size="sm" 
-              className="w-full text-xs"
+              className="w-full text-[11px] md:text-xs"
               onClick={() => updateURL({ minPrice, maxPrice })}
             >
               Apply Filter
@@ -280,7 +280,7 @@ const FilterPanel = () => {
               <button
                 key={platform}
                 onClick={() => toggleFilter('platform', platform)}
-                className={`px-4 py-1.5 text-sm font-bold rounded-lg border transition-all duration-200 flex items-center gap-1.5 ${
+                className={`px-4 py-1.5 text-xs md:text-sm font-bold rounded-lg border transition-all duration-200 flex items-center gap-1.5 ${
                   currentPlatforms.includes(platform)
                     ? "bg-primary border-primary text-white/90 shadow-lg shadow-primary/20 scale-[1.02]"
                     : "bg-background border-border text-foreground hover:border-primary/50 hover:text-primary"
@@ -313,7 +313,7 @@ const FilterPanel = () => {
               >
                 <div className="flex items-center gap-1">
                   <Star className={`w-4 h-4 ${currentMinRating === rating.toString() ? "fill-white text-white" : "fill-yellow-400 text-yellow-400"}`} />
-                  <span className="text-sm font-bold">{rating} & Up</span>
+                  <span className="text-xs md:text-sm font-bold">{rating} & Up</span>
                 </div>
               </button>
             ))}
@@ -329,7 +329,7 @@ const FilterPanel = () => {
               setMaxPrice('');
               router.replace('/games');
             }}
-            className="w-full py-2 text-sm tracking-wide"
+            className="w-full py-2 text-xs md:text-sm tracking-wide"
           >
             Reset All Filters
           </Button>

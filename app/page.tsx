@@ -33,7 +33,7 @@ export default function Home() {
     <div className="w-full">
       <HeroBanner games={bannerGames} />
 
-      <div className="container mx-auto pb-12 md:pb-16">
+      <div className="container mx-auto px-4 lg:px-0 pb-12 md:pb-16">
         <motion.section 
           className="mt-4 md:mt-16"
           initial="initial"

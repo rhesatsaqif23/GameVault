@@ -40,13 +40,13 @@ const FilterDrawer = () => {
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
               className="fixed inset-y-0 right-0 w-[85%] max-w-sm bg-background shadow-2xl z-101 flex flex-col"
             >
-              <div className="p-4 border-b border-border flex items-center justify-between">
-                <h2 className="text-xl font-bold">Filters</h2>
+              <div className="px-4 py-2 border-b border-border flex items-center justify-between">
+                <h2 className="text-base font-bold">Filters</h2>
                 <button 
                   onClick={() => setIsOpen(false)}
                   className="p-2 hover:bg-foreground/5 rounded-full transition-colors"
                 >
-                  <X size={24} />
+                  <X size={16} />
                 </button>
               </div>
               

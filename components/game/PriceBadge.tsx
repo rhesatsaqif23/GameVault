@@ -8,14 +8,14 @@ interface PriceBadgeProps {
 const PriceBadge = ({ price }: PriceBadgeProps) => {
   if (price === 0) {
     return (
-      <span className="text-base font-bold text-green-500 uppercase tracking-tighter">
+      <span className="text-sm md:text-base font-bold text-green-500 uppercase tracking-tighter">
         Free
       </span>
     );
   }
 
   return (
-    <span className="text-base font-bold text-foreground">
+    <span className="text-sm md:text-base font-bold text-foreground">
       {formatCurrency(price)}
     </span>
   );
