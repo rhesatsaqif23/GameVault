@@ -2,29 +2,40 @@
 
 import React, { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { useDebounce } from '@/hooks/useDebounce';
 
 const SearchBar = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [query, setQuery] = useState(searchParams.get('q') || '');
-  const debouncedQuery = useDebounce(query, 300);
+  const currentQuery = searchParams.get('q') || '';
+  const [query, setQuery] = useState(currentQuery);
+  const [prevQuery, setPrevQuery] = useState(currentQuery);
+
+  // Sync internal state with URL immediately if it changes from outside
+  if (currentQuery !== prevQuery) {
+    setPrevQuery(currentQuery);
+    setQuery(currentQuery);
+  }
 
   useEffect(() => {
-    const currentQuery = searchParams.get('q') || '';
-    
-    // Only update the URL if the debounced query is actually different from the current URL
-    if (debouncedQuery === currentQuery) return;
+    // If the local query already matches the URL, do nothing
+    const currentUrlQuery = new URLSearchParams(searchParams.toString()).get('q') || '';
+    if (query === currentUrlQuery) return;
 
-    const params = new URLSearchParams(searchParams.toString());
-    if (debouncedQuery) {
-      params.set('q', debouncedQuery);
-    } else {
-      params.delete('q');
-    }
-    
-    router.replace(`/games?${params.toString()}`, { scroll: false });
-  }, [debouncedQuery, router, searchParams]);
+    // Set a timeout to update the URL after typing stops
+    const handler = setTimeout(() => {
+      const params = new URLSearchParams(searchParams.toString());
+      if (query) {
+        params.set('q', query);
+      } else {
+        params.delete('q');
+      }
+      
+      // Use replace to avoid polluting history with every keystroke
+      router.replace(`/games?${params.toString()}`, { scroll: false });
+    }, 400); // 400ms debounce
+
+    return () => clearTimeout(handler);
+  }, [query, router, searchParams]);
 
   return (
     <div className="relative w-full md:w-100 lg:w-120 group">
@@ -38,6 +49,7 @@ const SearchBar = () => {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search for games..." 
+        aria-label="Search for games"
         className="w-full pl-10 pr-4 py-2.5 bg-card border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-200 text-sm md:text-base font-medium"
       />
     </div>

@@ -53,7 +53,7 @@ const HeroBanner = ({ games }: HeroBannerProps) => {
             fill
             className="object-cover"
             priority={currentIndex === 0}
-            unoptimized
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-linear-to-b from-[#090610]/40 via-[#090610]/80 to-[#090610] md:bg-linear-to-r md:from-[#090610] md:via-[#1d103a]/80 md:to-transparent" />
         </motion.div>

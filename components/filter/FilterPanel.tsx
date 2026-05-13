@@ -2,8 +2,8 @@
 
 import React, { useState, useCallback, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { getAllGenres, getAllPlatforms } from '@/lib/games';
-import { ChevronDown, Check, Star } from 'lucide-react';
+import { getAllGenres, getAllPlatforms, getAllYears } from '@/lib/games';
+import { ChevronDown, Check, Star, ArrowUp, ArrowDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from '@/components/ui/Button';
 
@@ -29,6 +29,9 @@ const AccordionItem = ({
       <div className="flex items-center justify-between">
         <button
           onClick={onToggle}
+          aria-expanded={isExpanded}
+          aria-controls={`accordion-content-${title.toLowerCase()}`}
+          aria-label={`${isExpanded ? 'Collapse' : 'Expand'} ${title} section`}
           className="grow flex items-center justify-between py-4 group transition-colors"
         >
           <span className="text-xs md:text-sm font-bold uppercase tracking-wider text-foreground group-hover:text-primary transition-colors">
@@ -44,12 +47,17 @@ const AccordionItem = ({
           {onClear && hasCount && (
             <button 
               onClick={(e) => { e.stopPropagation(); onClear(); }}
+              aria-label={`Clear all selected ${title}`}
               className="text-[11px] md:text-xs font-bold text-primary hover:underline uppercase tracking-tighter"
             >
               Clear
             </button>
           )}
-          <button onClick={onToggle}>
+          <button 
+            onClick={onToggle}
+            aria-label={isExpanded ? 'Collapse' : 'Expand'}
+            aria-expanded={isExpanded}
+          >
             <ChevronDown className={`w-4 h-4 transition-all duration-300 ${isExpanded ? 'rotate-180 text-foreground' : 'text-foreground/80 group-hover:text-primary'}`} />
           </button>
         </div>
@@ -57,13 +65,14 @@ const AccordionItem = ({
       <AnimatePresence initial={false}>
         {isExpanded && (
           <motion.div
+            id={`accordion-content-${title.toLowerCase()}`}
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: [0.04, 0.62, 0.23, 0.98] }}
             className="overflow-hidden"
           >
-            <div className="pb-4">
+            <div className="pb-4" role="region" aria-labelledby={`accordion-button-${title.toLowerCase()}`}>
               {children}
             </div>
           </motion.div>
@@ -90,14 +99,21 @@ const FilterPanel = () => {
 
   const allGenres = getAllGenres();
   const allPlatforms = getAllPlatforms();
+  const allYears = getAllYears();
   
   const currentGenres = searchParams.get('genre')?.split(',') || [];
   const currentPlatforms = searchParams.get('platform')?.split(',') || [];
-  const currentSort = searchParams.get('sort') || 'newest';
+  const currentSort = searchParams.get('sort') || 'alphabetical';
+  const currentSortDir = searchParams.get('sortDir') || 'asc';
   const currentMinRating = searchParams.get('minRating') || '';
+  const currentYear = searchParams.get('year')?.split(',') || [];
 
   const updateURL = useCallback((updates: Record<string, string | null>) => {
     const params = new URLSearchParams(searchParams.toString());
+    
+    // Always reset to page 1 when any filter/sort changes
+    params.delete('page');
+
     Object.entries(updates).forEach(([key, value]) => {
       if (value === null || value === '' || value === 'All') {
         params.delete(key);
@@ -137,10 +153,23 @@ const FilterPanel = () => {
   }, [paramsString, searchParams]);
 
   const sortOptions = [
-    { value: 'newest', label: 'Recently Added' },
-    { value: 'rating', label: 'Highest Rated' },
-    { value: 'price_low', label: 'Lowest Price' },
+    { value: 'alphabetical', label: 'Alphabetical', descLabel: 'Alphabetical (Z-A)', ascLabel: 'Alphabetical (A-Z)' },
+    { value: 'newest', label: 'Recently Added', descLabel: 'Recently Added', ascLabel: 'Earliest Added' },
+    { value: 'rating', label: 'Highest Rated', descLabel: 'Highest Rated', ascLabel: 'Lowest Rated' },
+    { value: 'price_low', label: 'Lowest Price', descLabel: 'Highest Price', ascLabel: 'Lowest Price' },
   ];
+
+  const handleSortClick = (value: string) => {
+    if (currentSort === value) {
+      // Toggle direction
+      updateURL({ sort: value, sortDir: currentSortDir === 'desc' ? 'asc' : 'desc' });
+    } else {
+      // Select sort, default direction based on type
+      let dir = 'desc';
+      if (value === 'alphabetical' || value === 'price_low') dir = 'asc';
+      updateURL({ sort: value, sortDir: dir });
+    }
+  };
 
   const formatPrice = (val: string) => {
     if (!val) return '';
@@ -151,6 +180,8 @@ const FilterPanel = () => {
     const rawValue = e.target.value.replace(/\D/g, '');
     setter(rawValue);
   };
+
+  const hasActiveFilters = currentGenres.length > 0 || currentPlatforms.length > 0 || currentSort !== 'alphabetical' || currentSortDir !== 'asc' || minPrice || maxPrice || currentMinRating || currentYear.length > 0;
 
   return (
     <div className="bg-card rounded-2xl border border-border shadow-sm flex flex-col max-h-[calc(100vh-120px)]">
@@ -186,17 +217,53 @@ const FilterPanel = () => {
           onToggle={() => toggleAccordion('sort')}
         >
           <div className="space-y-1.5">
-            {sortOptions.map((opt) => (
+            {sortOptions.map((opt) => {
+              const isActive = currentSort === opt.value;
+              const isAsc = isActive && currentSortDir === 'asc';
+              return (
+                <button
+                  key={opt.value}
+                  onClick={() => handleSortClick(opt.value)}
+                  className={`w-full text-left px-4 py-2.5 text-xs md:text-sm font-bold rounded-lg transition-all duration-200 border flex items-center justify-between gap-2 ${
+                    isActive
+                      ? "bg-primary border-primary text-white shadow-lg shadow-primary/20"
+                      : "bg-background border-border/50 text-foreground hover:border-primary/30"
+                  }`}
+                >
+                  <span>{isActive ? (isAsc ? opt.ascLabel : opt.descLabel) : opt.label}</span>
+                  {isActive && (
+                    isAsc ? (
+                      <ArrowUp className="w-4 h-4 shrink-0" />
+                    ) : (
+                      <ArrowDown className="w-4 h-4 shrink-0" />
+                    )
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </AccordionItem>
+
+        <AccordionItem 
+          title="Release Year" 
+          isExpanded={expandedIds.includes('year')} 
+          onToggle={() => toggleAccordion('year')}
+          count={currentYear.length}
+          onClear={() => updateURL({ year: null })}
+        >
+          <div className="flex flex-wrap gap-2 pt-1">
+            {allYears.map((y) => (
               <button
-                key={opt.value}
-                onClick={() => updateURL({ sort: opt.value })}
-                className={`w-full text-left px-4 py-2.5 text-xs md:text-sm font-bold rounded-lg transition-all duration-200 border ${
-                  currentSort === opt.value
-                    ? "bg-primary border-primary text-white shadow-lg shadow-primary/20"
-                    : "bg-background border-border/50 text-foreground hover:border-primary/30"
+                key={y}
+                onClick={() => toggleFilter('year', y.toString())}
+                className={`px-4 py-1.5 text-xs md:text-sm font-bold rounded-lg border transition-all duration-200 flex items-center gap-1.5 ${
+                  currentYear.includes(y.toString())
+                    ? "bg-primary border-primary text-white/90 shadow-lg shadow-primary/20 scale-[1.02]"
+                    : "bg-background border-border text-foreground hover:border-primary/50 hover:text-primary"
                 }`}
               >
-                {opt.label}
+                {currentYear.includes(y.toString()) && <Check className="w-3.5 h-3.5 stroke-3" />}
+                {y}
               </button>
             ))}
           </div>
@@ -321,7 +388,7 @@ const FilterPanel = () => {
         </AccordionItem>
       </div>
 
-      {(currentGenres.length > 0 || currentPlatforms.length > 0 || currentSort !== 'newest' || minPrice || maxPrice || currentMinRating) && (
+      {hasActiveFilters && (
         <div className="p-4 pt-2 border-t border-border/50">
           <Button
             onClick={() => {

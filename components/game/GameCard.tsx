@@ -32,6 +32,7 @@ const GameCard = ({ game }: GameCardProps) => {
             isImageLoading ? 'scale-110 blur-xl grayscale' : 'scale-100 blur-0 grayscale-0'
           }`}
           onLoad={() => setIsImageLoading(false)}
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
         <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </Link>
