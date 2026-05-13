@@ -1,71 +1,87 @@
-# GameVault — Game Catalog Platform
+# 🎮 GameVault — Premium Game Catalog Platform
 
-## Overview
-GameVault is a web-based game catalog platform that allows users to:
-- Explore a diverse collection of games.
-- Read comprehensive details for each game.
-- Save favorite games to a personal **wishlist**.
+## 📖 Overview
+**GameVault** is a modern, premium web-based game catalog platform designed for the Indonesian gamer community. It serves as an interactive hub where users can discover new games, explore comprehensive game details, and curate a personal wishlist.
 
-This project serves as an MVP focusing on a robust frontend experience, built for the Ariverse Studio Front End Developer Internship Technical Test.
+Built as part of the **Ariverse Studio Front End Developer Internship 2026 Technical Test**, this application is an MVP (Minimum Viable Product) that strongly emphasizes a flawless, responsive frontend experience, fluid animations, and a highly polished user interface.
 
-## Run Locally
-To run this project locally, follow these steps:
+## 🚀 Key Features
 
-1. Clone the repository:
+### 🌟 Immersive Discovery Experience
+- **Dynamic Homepage**: Features a captivating auto-playing Hero Banner showcasing highlighted games and a responsive "Top Picks" game grid.
+- **Advanced Filtering & Search**: A robust Discovery page (`/games`) equipped with a real-time debounced search bar, multi-select category filters (Genre, Platform, Price, Rating), and sorting options (Newest, Rating, Price). All filters are perfectly synchronized with URL parameters for easy sharing and navigation.
+- **Responsive Layout**: A true mobile-first approach. Adapts seamlessly from mobile devices (≤ 320px) up to ultra-wide desktop monitors (≥ 1600px), with intelligent responsive typography and adaptive grid layouts.
+
+### 🎮 Comprehensive Game Details
+- **Detailed Metadata**: Explore in-depth information including descriptions, genres, platforms, developer/publisher details, release dates, and pricing.
+- **Interactive Media Gallery**: Custom-built, full-screen Lightbox for viewing high-quality game screenshots.
+- **Custom Cursor**: A unique, unified custom cursor system that enhances the premium gaming aesthetic across the platform.
+
+### ❤️ Persistent Wishlist
+- **Curate Your Collection**: Seamlessly add or remove games from your personal wishlist.
+- **Local Persistence**: State is efficiently managed using React Context and synchronized with browser `localStorage`, ensuring your wishlist remains intact across sessions and reloads without needing a real backend.
+
+### 🎨 Premium Aesthetics
+- **Dark/Light Mode**: Full theme toggle support seamlessly integrated with the UI design system.
+- **Micro-interactions**: Smooth hover effects, scale transitions, and active state indicators that make the UI feel alive and responsive.
+
+## 💻 Tech Stack & Rationale
+
+- **Next.js 14+ (App Router)**: Selected for intuitive file-based routing, native React Server Components, and powerful built-in optimizations (`next/image`).
+- **React 18**: Utilizing modern hooks (`useState`, `useEffect`, `useContext`, custom hooks like `useDebounce`).
+- **Tailwind CSS**: A utility-first CSS framework enabling rapid, responsive UI development with built-in dark mode support and custom design tokens.
+- **Framer Motion**: Powering fluid page transitions, layout animations, and component micro-interactions.
+- **TypeScript**: Ensuring strict type safety, reducing runtime errors, and providing a superior developer experience.
+- **Lucide React**: Beautiful, consistent iconography.
+
+## 🛠️ Run Locally
+
+Follow these steps to run the GameVault platform on your local machine:
+
+1. **Clone the repository:**
    ```bash
    git clone <repository-url>
    ```
-2. Navigate into the project directory:
+2. **Navigate into the project directory:**
    ```bash
    cd gamevault
    ```
-3. Install dependencies:
+3. **Install dependencies:**
    ```bash
    npm install
    ```
-4. Start the development server:
+4. **Start the development server:**
    ```bash
    npm run dev
    ```
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the app.
+5. **Explore the App:**
+   Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
-## Tech Stack & Rationale
-- **Next.js 14+ (App Router)**: Selected for its intuitive file-based routing, native React Server Components, powerful built-in image optimization (`next/image`), and robust Static Site Generation capabilities.
-- **Tailwind CSS**: A utility-first CSS framework that allows rapid, responsive UI development with minimal custom CSS and built-in dark mode support.
-- **TypeScript**: Ensures type safety, fewer runtime errors, and a streamlined developer experience.
-- **React Context & LocalStorage**: Utilized for persisting the user's wishlist state efficiently across sessions without the overhead of a real backend.
+## 📁 Folder Structure
 
-## Folder Structure
-```
+```text
 gamevault/
-├── app/               # Next.js App Router pages and layouts
-├── components/        # Reusable React components (filter, game, layout, ui)
-├── context/           # React Context providers (Wishlist, Theme)
-├── data/              # Static JSON data (games.json)
-├── hooks/             # Custom React hooks (useWishlist, useDebounce, etc.)
+├── app/               # Next.js App Router (Pages: Home, Games, Wishlist)
+├── components/        # Reusable React Components
+│   ├── filter/        # SearchBar, FilterPanel, SortSelect
+│   ├── game/          # GameCard, GameGrid, HeroBanner, WishlistButton
+│   ├── layout/        # Navbar, Footer
+│   └── ui/            # ThemeToggle, Button, SkeletonCard, Lightbox
+├── context/           # React Context Providers (WishlistContext, ThemeContext)
+├── data/              # Static JSON Database (games.json with 30+ entries)
+├── hooks/             # Custom React Hooks (useWishlist, useDebounce, etc.)
 ├── lib/               # Utility functions and data access helpers
-├── public/            # Static assets
-└── types/             # TypeScript type definitions
+├── public/            # Static assets (Logos, Icons)
+└── types/             # TypeScript type definitions (Game interface)
 ```
 
-## Features List
-### Completed Features
-- **Homepage**: Features a dynamic Hero Banner highlighting featured games and a responsive game grid.
-- **Game Discovery (`/games`)**: Complete with a debounced search bar, robust filtering (by genre and platform), and sorting functionality—all synchronized with the URL parameters.
-- **Game Details (`/games/[slug]`)**: Displays full game descriptions, metadata, and an interactive screenshot gallery using a custom Lightbox.
-- **Wishlist**: Users can seamlessly add or remove games to their wishlist, which persists across browser reloads using `localStorage`.
-- **Dark/Light Mode**: Full theme toggle support integrated with the UI design system.
-- **Responsiveness**: Fully fluid and responsive layout optimized for mobile, tablet, and desktop viewports.
+## ⚖️ Trade-offs & Architecture Decisions
 
-### Pending Features (Out of Scope for MVP)
-- User Authentication
-- Real Backend & Database Integration
-- User Reviews and Ratings System
+- **Static Data Source (`games.json`)**: To fulfill the MVP scope without a dedicated backend, all game data is loaded statically. This ensures blazing fast performance and zero latency, though it sacrifices dynamic scalability.
+- **LocalStorage Wishlist**: Using `localStorage` provides a frictionless user experience for saving games. While clearing browser data resets the wishlist, it perfectly suits a frontend-focused application without user authentication.
+- **URL-Synchronized State**: Filter, sort, and search states are managed via URL Search Parameters rather than local component state. This slightly increases complexity but significantly improves UX by allowing users to bookmark and share specific filtered views.
+- **Image Optimization**: Using `next/image` ensures images are properly sized and optimized (WebP). Loading placeholders (skeletons and blur states) are implemented to mitigate potential network bottlenecks when rendering 30+ game covers simultaneously.
 
-## Trade-offs & Known Constraints
-- **Static Data Source**: All game data is loaded statically from `data/games.json`. This provides excellent MVP performance but lacks dynamic scalability compared to a true backend API.
-- **Wishlist Storage**: Wishlist items are saved exclusively in `localStorage`. If the user clears their browser cache or switches devices, their wishlist data is lost. This is an acceptable trade-off for a frontend-focused test.
-- **Image Performance**: Loading 50+ images at once could bottleneck network performance. This is mitigated through Next.js's lazy loading via `next/image` and custom skeleton placeholders.
+## 🌐 Live Demo
 
-## Live Demo
-Check out the live deployment here: *[Insert Vercel/Netlify Live URL]*
+Check out the live deployment here: *https://gamevault-gamerverse.vercel.app/*
