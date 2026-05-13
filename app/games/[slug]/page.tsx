@@ -1,9 +1,9 @@
 import React from "react";
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { getGameBySlug } from "@/lib/games";
 import WishlistButton from "@/components/game/WishlistButton";
 import Button from "@/components/ui/Button";
+import BackButton from "@/components/ui/BackButton";
 import { ShoppingCart } from "lucide-react";
 import RatingBadge from "@/components/game/RatingBadge";
 import PriceBadge from "@/components/game/PriceBadge";
@@ -26,8 +26,7 @@ const GameDetailPage = async ({ params }: GameDetailPageProps) => {
 
   return (
     <main className="max-w-[1600px] mx-auto px-4 sm:px-8 md:px-12 pt-6 md:pt-8 pb-12 md:pb-16">
-      <Link
-        href="/games"
+      <BackButton
         className="inline-flex items-center gap-2 text-base md:text-xl text-foreground font-bold hover:text-primary-light mb-6 md:mb-8 transition-colors group"
       >
         <svg
@@ -43,8 +42,8 @@ const GameDetailPage = async ({ params }: GameDetailPageProps) => {
             d="M15 19l-7-7 7-7"
           />
         </svg>
-        Back to Catalog
-      </Link>
+        Back
+      </BackButton>
 
       <GameDetailLayout
         left={

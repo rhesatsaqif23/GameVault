@@ -43,9 +43,9 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
             priority
-            unoptimized
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
           />
-          <div className="absolute inset-0 bg-linear-to-t from-black/40 to-transparent" />
+
           {allMedia.length > 1 && (
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
               <div className="text-white transform scale-90 group-hover:scale-100 transition-transform duration-500 drop-shadow-lg">
@@ -95,6 +95,7 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
                   unoptimized
+                  sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 250px"
                 />
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <Maximize2 size={32} strokeWidth={1.5} className="text-white drop-shadow-lg" />
@@ -162,6 +163,7 @@ const GameMedia = ({ coverImage, screenshots, title }: GameMediaProps) => {
                   className="object-contain rounded-lg shadow-2xl pointer-events-auto select-none"
                   priority
                   unoptimized
+                  sizes="100vw"
                 />
               </motion.div>
             </div>

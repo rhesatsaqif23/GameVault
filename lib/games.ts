@@ -33,7 +33,10 @@ export const searchGames = (
   platform?: string,
   minPrice?: number,
   maxPrice?: number,
-  minRating?: number
+  minRating?: number,
+  year?: string,
+  sort: string = 'alphabetical',
+  sortDir: string = 'asc'
 ): Game[] => {
   let filtered = [...games];
 
@@ -72,6 +75,31 @@ export const searchGames = (
     filtered = filtered.filter(game => game.rating >= minRating);
   }
 
+  if (year) {
+    const selectedYears = year.split(',');
+    filtered = filtered.filter((g) => 
+      selectedYears.includes(new Date(g.releaseDate).getFullYear().toString())
+    );
+  }
+
+  // Sorting
+  const asc = sortDir === "asc";
+  if (sort === "alphabetical") {
+    filtered.sort((a, b) => 
+      asc ? a.title.localeCompare(b.title) : b.title.localeCompare(a.title)
+    );
+  } else if (sort === "rating") {
+    filtered.sort((a, b) => asc ? a.rating - b.rating : b.rating - a.rating);
+  } else if (sort === "price_low") {
+    filtered.sort((a, b) => asc ? a.price - b.price : b.price - a.price);
+  } else if (sort === "newest") {
+    filtered.sort((a, b) =>
+      asc
+        ? new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime()
+        : new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime(),
+    );
+  }
+
   return filtered;
 };
 
@@ -80,6 +108,13 @@ export const searchGames = (
  */
 export const getFeaturedGames = (): Game[] => {
   return games.filter((game) => game.featured);
+};
+
+/**
+ * Returns games with banners.
+ */
+export const getBannerGames = (): Game[] => {
+  return games.filter((game) => game.banner);
 };
 
 /**
@@ -102,4 +137,17 @@ export const getAllPlatforms = (): string[] => {
     game.platforms.forEach(platform => platformsSet.add(platform));
   });
   return Array.from(platformsSet).sort();
+};
+
+/**
+ * Returns a list of unique release years (descending), derived from game data.
+ */
+export const getAllYears = (): number[] => {
+  const yearsSet = new Set<number>();
+  games.forEach(game => {
+    if (game.releaseDate) {
+      yearsSet.add(new Date(game.releaseDate).getFullYear());
+    }
+  });
+  return Array.from(yearsSet).sort((a, b) => b - a);
 };

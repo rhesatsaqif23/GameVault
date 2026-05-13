@@ -27,7 +27,7 @@
       "Survive",
       "Shadows"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-002",
@@ -57,7 +57,7 @@
       "Survival",
       "Roguelike"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-003",
@@ -117,7 +117,7 @@
       "Relaxing",
       "Twist"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-005",
@@ -149,7 +149,7 @@
       "Relaxing",
       "Family Friendly"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-006",
@@ -176,7 +176,7 @@
       "Social",
       "Funny"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-007",
@@ -239,7 +239,7 @@
       "Meme",
       "Funny"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-009",
@@ -267,7 +267,7 @@
       "Survival",
       "Night"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-010",
@@ -296,7 +296,7 @@
       "Dark",
       "Mystery"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-011",
@@ -358,7 +358,7 @@
       "Beat-em-up",
       "Stylish"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-013",
@@ -387,7 +387,7 @@
       "Indie",
       "Emotional"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-014",
@@ -415,7 +415,7 @@
       "Physics",
       "Minimalist"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-015",
@@ -443,7 +443,7 @@
       "Hunting",
       "Atmospheric"
     ],
-    "featured": true,
+    "featured": false,
     "banner": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/banners/Impale.gif"
   },
   {
@@ -473,7 +473,7 @@
       "Simple",
       "Addictive"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-017",
@@ -502,7 +502,7 @@
       "Atmospheric",
       "Liminal"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-018",
@@ -534,7 +534,7 @@
       "Quirky",
       "Fast"
     ],
-    "featured": true,
+    "featured": false,
     "banner": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/banners/Linked%20It.gif"
   },
   {
@@ -565,7 +565,7 @@
       "Combat",
       "Music"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-020",
@@ -598,7 +598,7 @@
       "Light",
       "Shadows"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-021",
@@ -624,7 +624,7 @@
       "Logic",
       "Indie"
     ],
-    "featured": true,
+    "featured": false,
     "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Me%20&%20Me.png",
     "screenshots": []
   },
@@ -653,7 +653,7 @@
       "Magic",
       "Loot"
     ],
-    "featured": true,
+    "featured": false,
     "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Mistic%20Theft.png",
     "screenshots": [
       "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Mistic%20Theft%201.jpg",
@@ -685,7 +685,7 @@
       "Action",
       "Medical"
     ],
-    "featured": true,
+    "featured": false,
     "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Neuroblast.png",
     "screenshots": [
       "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/Neuroblast%201.png"
@@ -716,7 +716,7 @@
       "Physics",
       "Logic"
     ],
-    "featured": true,
+    "featured": false,
     "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Omni%20Reflect.png",
     "screenshots": []
   },
@@ -744,7 +744,7 @@
       "Boss Rush",
       "Action"
     ],
-    "featured": true,
+    "featured": false,
     "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/One%20Fiend.png",
     "screenshots": []
   },
@@ -804,7 +804,7 @@
       "Anxiety",
       "Mental Health"
     ],
-    "featured": true,
+    "featured": false,
     "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Out%20of%20The%20Comfort%20Zone.png",
     "screenshots": []
   },
@@ -833,7 +833,7 @@
       "Funny",
       "Birds"
     ],
-    "featured": true,
+    "featured": false,
     "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/OwlCorp.png",
     "screenshots": [
       "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/screenshots/OwlCorp%201.png",
@@ -900,7 +900,7 @@
       "Survival Horror",
       "Dark"
     ],
-    "featured": true,
+    "featured": false,
     "coverImage": "https://iepkhrtbhsyxkoajbquu.supabase.co/storage/v1/object/public/games/Phobos.png",
     "screenshots": []
   },
@@ -933,7 +933,7 @@
       "Indie",
       "Collection"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-032",
@@ -961,7 +961,7 @@
       "Nature",
       "Strategy"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-033",
@@ -1088,7 +1088,7 @@
       "Indonesia",
       "Investigation"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-037",
@@ -1117,7 +1117,7 @@
       "Mansion",
       "Chase"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-038",
@@ -1149,7 +1149,7 @@
       "Funny",
       "Action"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-039",
@@ -1178,7 +1178,7 @@
       "Puzzle",
       "Indirect Control"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-040",
@@ -1206,7 +1206,7 @@
       "Beautiful",
       "Poetic"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-041",
@@ -1235,7 +1235,7 @@
       "Aliens",
       "Tactical"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-042",
@@ -1265,7 +1265,7 @@
       "Mythology",
       "Epic"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-043",
@@ -1297,7 +1297,7 @@
       "Tower Defense",
       "Wave Survival"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-044",
@@ -1326,7 +1326,7 @@
       "Relaxing",
       "Exploration"
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": "gv-045",

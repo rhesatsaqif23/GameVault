@@ -47,6 +47,8 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 href={link.href}
+                aria-label={`Navigate to ${link.name}`}
+                aria-current={isActive ? "page" : undefined}
                 className={`relative h-full flex items-center gap-2 text-sm md:text-base font-bold tracking-wide transition-colors group/nav ${
                   isActive ? "text-primary" : "text-foreground/80 hover:text-primary"
                 }`}
@@ -77,6 +79,8 @@ const Navbar = () => {
           <button 
             className="md:hidden p-2 text-foreground hover:bg-foreground/5 rounded-lg transition-colors"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label={isOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isOpen}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -101,12 +105,14 @@ const Navbar = () => {
               exit={{ opacity: 0, y: -10 }}
               className="md:hidden absolute top-full left-0 right-0 border-t border-border bg-background shadow-xl z-50 overflow-hidden"
             >
-              <div className="flex flex-col p-4 gap-4">
+              <div className="flex flex-col p-4 gap-4" role="menu">
                 {navLinks.map((link) => (
                   <Link
                     key={link.name}
                     href={link.href}
                     onClick={() => setIsOpen(false)}
+                    aria-label={`Navigate to ${link.name}`}
+                    role="menuitem"
                     className="text-xs md:text-sm font-bold tracking-wide hover:text-primary transition-colors flex items-center justify-between"
                   >
                     {link.name}

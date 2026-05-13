@@ -3,14 +3,13 @@
 import HeroBanner from "@/components/game/HeroBanner";
 import GameGrid from "@/components/game/GameGrid";
 import Link from "next/link";
-import { getFeaturedGames, getAllGames } from "@/lib/games";
+import { getFeaturedGames, getBannerGames } from "@/lib/games";
 import Button from "@/components/ui/Button";
 import { motion } from "framer-motion";
 
 export default function Home() {
   const featuredGames = getFeaturedGames();
-  const bannerGames = featuredGames.filter((game) => game.banner).slice(0, 4);
-  const allGames = getAllGames().slice(0, 6); // Show top 6 on homepage
+  const bannerGames = getBannerGames();
 
   const fadeIn = {
     initial: { opacity: 0, y: 30 },
@@ -43,9 +42,9 @@ export default function Home() {
         >
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8 md:mb-10">
             <motion.div variants={fadeIn}>
-              <h2 className="text-2xl md:text-4xl font-black text-foreground">Top Picks</h2>
+              <h2 className="text-2xl md:text-4xl font-black text-foreground">Featured Games</h2>
               <p className="text-sm md:text-lg text-foreground/80 mt-1">
-                Handpicked favorites from our community
+                Our handpicked selection of top-tier experiences
               </p>
             </motion.div>
             <motion.div variants={fadeIn}>
@@ -72,7 +71,7 @@ export default function Home() {
           </div>
 
           <motion.div variants={fadeIn}>
-            <GameGrid games={allGames} />
+            <GameGrid games={featuredGames} />
           </motion.div>
 
           <motion.div 

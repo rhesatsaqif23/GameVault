@@ -14,9 +14,9 @@ const FilterDrawer = () => {
       <Button 
         variant="outline" 
         onClick={() => setIsOpen(true)}
-        className="w-full flex items-center justify-center gap-2 py-3"
+        className="w-full flex items-center justify-center gap-2 py-2 md:py-3"
       >
-        <Filter size={18} />
+        <Filter size={16} />
         Filter & Sort
       </Button>
 
